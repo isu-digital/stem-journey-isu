@@ -10,6 +10,7 @@ permalink: /about.html
 
 {{site.description}}
 
+This is a sentence with new information.
 
 
 
