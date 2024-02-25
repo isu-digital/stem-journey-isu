@@ -1,40 +1,80 @@
-# Oral History as Data (OHD) - a Lib-STATIC Tool
-# https://github.com/uidaholib/oral-history-as-data
-
+##########
+# collectionbuilder-gh
+# Jekyll Digital Collection Generator, designed for GitHub Pages
+# https://github.com/CollectionBuilder/collectionbuilder-gh
+##########
 
 ##########
-# Site settings
+# URL VARIABLES [optional if using GitHub Pages!]
+#
+# url is site domain, full URL to the production location of your collection
+# on GitHub Pages follows the pattern username.github.io
+#url: https://collectionbuilder.github.io 
+# baseurl is path to location on the domain if necessary e.g. /digital/hjccc
+# on GitHub Pages it is your github repository's name prefixed with a /
+#baseurl: /collectionbuilder-gh 
+# location of code, the full url to your github repository
+source-code: https://github.com/thecdil/oral-history-as-data
+
+##########
+# SITE SETTINGS
 #
 # title of site appears in banner
 title: Tracing Race - Iowa State Library
-# tagline appears in banner
+# tagline, a short phrase that will appear throughout the site in the top banner
 tagline: Exploring the Journey of Asian Women in STEM at ISU
 # description appears in meta tags and other locations
 # this description might appear in search result lists, keep around 160 characters max
 description: "Promoting gender equity within academia is an ongoing journey, and Iowa State University (ISU) is committed to creating an inclusive and diverse faculty community."
 # creator of the digital collection, to appear in meta tags; we typically use our GitHub usernames but feel free to just use your name
-author: Mansi Patel
-# Organization branding
+author: dcnb
+
+##########
+# COLLECTION SETTINGS
+#
+# Set the metadata for your collection (the name of the csv file in your _data directory that describes the objects in your collection) 
+# Use the filename of your CSV **without** the ".csv" extension! E.g. _data/demo-metadata.csv --> "demo-metadata"
+metadata: demo-metadata 
+
+##########
+# Site/Organization Branding 
+#   Uncomment these and enter information for your organization (replacing the CDIL links and name below) if you'd like to brand your site with a logo
+#
 organization-name: "Iowa State University"
 organization-link: https://tracingrace.iastatedigital.org/asian-womeninstem-isu/
 organization-logo-banner: https://cdil.lib.uidaho.edu/images/cdil-blacktransparent-logo.png
 organization-logo-nav: https://cdil.lib.uidaho.edu/assets/img/logo.png
 
 
+
 ##########
-# URL settings 
+# GOOGLE SERVICES [optional!]
 #
-# url is your gh-pages base, following the pattern: username.github.io
-# Leave this commented out unless you'd like to built the site somewhere other than GitHub pages. 
-# In the latter case, see documentation here --> https://uidaholib.github.io/oral-history-as-data/advancedtopics.html#serve-the-site-from-another-location-not-github-pages
-# url: 
-# baseurl is your github repository's name prefixed with a /
-# baseurl: 
-# repository is the github repository's full url
-repository: https://github.com/uidaholib/oral-history-as-data
+# leave these blank or comment out to NOT include google code. See docs/google.md
+#
+# Add your google-analytics-id to automatically add the embed code, e.g. "UA-76328753-1"
+# google-analytics-id:
+# to populate a Google CSE add the id, e.g. "002151703305773322890:1pu3smhw1t8"
+# google-cse-id: 
 
+##########
+# ROBOTS EXCLUDE
+#
+# set noindex to true if you do NOT want Google to index your site
+# noindex: true 
 
-
+##########
+# BUILD SETTINGS 
+#
+# Note: use environment variable on build command to include analytics
+# JEKYLL_ENV=production jekyll build
+# (this is done automatically by gh-pages build)
+#
+# ignore stuff
+exclude: [docs/, Rakefile, README.md, LICENSE]
+# compress CSS output
+sass:
+  style: compressed
 
 ####### Leave the Below As Is ########
 
@@ -42,7 +82,7 @@ repository: https://github.com/uidaholib/oral-history-as-data
 collections:
   transcripts:
     output: true
-    permalink: /:collection/:name
+    permalink: /:collection/:title
   howto:
     output: true
     permalink: /:collection/:name
@@ -56,9 +96,3 @@ defaults:
       type: howto
     values:
       layout: howto
-
-# Build settings
-markdown: kramdown
-
-
-
