@@ -20,14 +20,14 @@ source-code: https://github.com/thecdil/oral-history-as-data
 # SITE SETTINGS
 #
 # title of site appears in banner
-title: Exploring the Journey of Asian Women in STEM at ISU
+title: Tracing Race - Iowa State Library
 # tagline, a short phrase that will appear throughout the site in the top banner
-tagline: Tracing Race an ISU project
+tagline: Exploring the Journey of Asian Women in STEM at ISU
 # description appears in meta tags and other locations
 # this description might appear in search result lists, keep around 160 characters max
-description:
+description: "Promoting gender equity within academia is an ongoing journey, and Iowa State University (ISU) is committed to creating an inclusive and diverse faculty community."
 # creator of the digital collection, to appear in meta tags; we typically use our GitHub usernames but feel free to just use your name
-author: mrpatel18
+author: dcnb
 
 ##########
 # COLLECTION SETTINGS
@@ -40,8 +40,8 @@ metadata: demo-metadata
 # Site/Organization Branding 
 #   Uncomment these and enter information for your organization (replacing the CDIL links and name below) if you'd like to brand your site with a logo
 #
-organization-name: "Center for Digital Inquiry and Learning, University of Idaho Library"
-organization-link: https://cdil.lib.uidaho.edu/
+organization-name: "Iowa State University"
+organization-link: https://tracingrace.iastatedigital.org/asian-womeninstem-isu/
 organization-logo-banner: https://cdil.lib.uidaho.edu/images/cdil-blacktransparent-logo.png
 organization-logo-nav: https://cdil.lib.uidaho.edu/assets/img/logo.png
 
@@ -61,7 +61,7 @@ organization-logo-nav: https://cdil.lib.uidaho.edu/assets/img/logo.png
 # ROBOTS EXCLUDE
 #
 # set noindex to true if you do NOT want Google to index your site
-noindex: true 
+# noindex: true 
 
 ##########
 # BUILD SETTINGS 
