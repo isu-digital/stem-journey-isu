@@ -1,6 +1,6 @@
 ---
 object-id: Jing_Wang
-title: Interview with Jing Wang
+title: Interview with Professor Jing Wang
 date-interviewed: June, 2023
 interviewer: Mansi Patel
 location: Ames, Iowa
