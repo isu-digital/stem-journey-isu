@@ -83,9 +83,9 @@ collections:
   transcripts:
     output: true
     permalink: /:collection/:title
-  howto:
+  profiles:
     output: true
-    permalink: /:collection/:name
+    permalink: /:collection/:title
 # defaults
 defaults:
   - scope:
@@ -93,6 +93,6 @@ defaults:
     values:
       layout: transcript
   - scope:
-      type: howto
+      type: profiles
     values:
-      layout: howto
+      layout: profile

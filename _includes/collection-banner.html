@@ -45,6 +45,16 @@
                                     {%endfor%}
                                 </div>
                             </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link  dropdown-toggle {% if page.url contains '/profiles/'  %}active{%else%}{% endif %}" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                                    Profiles
+                                </a>
+                                <div class="dropdown-menu dropdown-menu-end">
+                                    {% for profile in site.profiles %}
+                                    <a class="dropdown-item" href="{{ profile.object-id | prepend: '/profiles/' | relative_url }}.html">{{ profile.title }}</a>
+                                    {% endfor %}
+                                </div>
+                            </li>
                         </ul>
         </div>
     </div>
