@@ -3,6 +3,11 @@ layout: default
 ---
 
 <div class="container">
-    <h2 class="pt-5">{{ page.title }}</h2>
+    {% include breadcrumbs.html %}
+    <div class="row py-4">
+        <p>
+            <a href="{{ site.baseurl }}/" class="text-dark">{{ site.title }}</a> / Profiles / {{ page.title }}
+        </p>
+    </div>
     {{ content }}
 </div>
