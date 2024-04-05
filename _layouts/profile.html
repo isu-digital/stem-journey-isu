@@ -9,7 +9,7 @@ layout: default
     <div class="post-nav">
         <div>
           {% if page.previous.url %}
-            <a href="{{page.previous.url}}">
+            <a href="{{page.previous.url}}.html">
               <span class="unsighted">Previous post:</span>
               <span aria-hidden="true">&laquo;</span>
               {{page.previous.title}}
@@ -22,7 +22,7 @@ layout: default
           {% assign next_post_cape_length = next_post_title_array | size | minus: 1 %}
           {% assign next_post_cape = page.next.title | truncatewords: next_post_cape_length, "" %}
           {% assign next_post_spit = next_post_title_array | last %}
-          <a href="{{page.next.url}}">
+          <a href="{{page.next.url}}.html">
             <span class="unsighted">Next post:</span>
             {{next_post_cape}}
             <span style="white-space: nowrap;">
