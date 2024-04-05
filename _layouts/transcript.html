@@ -15,6 +15,7 @@ endcapture -%}
 {%endif%}
 {% if page.av_source %}{% assign av = page.av_source | downcase %}{% endif %}
 <div class="container">
+  {% include breadcrumbs.html omit_date=true %}
   <div id="full_container" class="p-3 p-md-5 justify-content-center m-auto" >
     <div id="object-meta">
 
