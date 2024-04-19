@@ -11,7 +11,7 @@ permalink: /
 
 Promoting gender equity within academia is an ongoing journey, and Iowa State University (ISU) is committed to creating an inclusive and diverse faculty community. While progress has been made, there remain opportunities to further enhance the representation of women faculty members, particularly in STEM fields. Additionally, exploring the intersectionality of gender and ethnicity, such as being Asian, adds valuable dimensions to the ongoing efforts towards fostering a truly inclusive academic environment.
 
-{% include feature/image.html objectid="/assets/img/isu-campus.jpg" alt="image of tower on Iowa State University campus lawn" caption="Iowa State University" link="https://github.com/isu-digital/stem-journey-isu" width="50" %}
+{% include feature/image.html objectid="/assets/img/isu-campus.jpg" alt="image of tower on Iowa State University campus lawn" caption="Iowa State University" width="50" %}
 
 Celebrating Progress at ISU: Over the years, ISU has made significant strides in increasing the representation of women among its faculty. In 2018, ISU employed 767 remarkable female faculty members, accounting for 39.7% of the total, marking a positive improvement from 2010. This upward trend is encouraging and reflects ISU’s commitment to gender diversity within its academic community.
 

@@ -11,7 +11,7 @@ title: Dr. Liu Lu
 Dr. Lu Liu, a leading researcher in civil engineering and environmental science, shared her inspiring journey in STEM during our interview. Originally from China, she earned her bachelor's and master's degrees in environmental science at the University of Oklahoma before completing her Ph.D. in civil engineering in 2017. Driven by a passion for sustainable engineering, she joined Iowa State University as a faculty member in 2021.
 
 
-{% include feature/image.html objectid="/assets/img/Interview_Lu_Liu.jpg" alt="Interview with Professor Liu Lu" caption="Dr. Liu Lu" link="http://127.0.0.1:4000/transcripts/Liu_Lu.html" width="50" %}
+{% include feature/image.html objectid="/assets/img/Interview_Lu_Liu.jpg" alt="Interview with Professor Liu Lu" caption="Dr. Liu Lu" link="/transcripts/Liu_Lu.html" width="50" %}
 
 
 *“Engineering, especially civil engineering, is a very traditional type of study. They haven’t seen many faces like this, so they’re kind of skeptical.”*
