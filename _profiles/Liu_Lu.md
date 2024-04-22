@@ -3,6 +3,7 @@ object-id: Liu_Lu
 title: Dr. Liu Lu
 ---
 
+{% include feature/jumbotron.html objectid="assets/img/isu-campanile.jpeg" %}
 
 ### ***Seizing Opportunities: Dr. Lu Liu’s Inspiring Journey in STEM***
 
@@ -41,7 +42,7 @@ M.S. Environmental Science, University of Oklahoma, 2012
 
 B.S. Environmental Science, University of Oklahoma, 2010
 
-
+{% include feature/button.html text="button text goes here!" link="https://collectionbuilder.github.io/" color="primary" %}
 
 ### Publications
 

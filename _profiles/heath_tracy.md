@@ -2,6 +2,7 @@
 object-id: heath_tracy
 title: Dr. Tracy Heath
 ---
+{% include feature/jumbotron.html objectid="assets/img/isu-campanile.jpeg" %}
 
 {:.pt-5}
 ## Dr. Tracy Heath
@@ -38,7 +39,11 @@ B.A., Biology, Boston University, 2000
 
 Ph.D., Ecology, Evolution, and Behavior, University of Texas at Austin, 2008
 
-## Publication
+{% include feature/button.html text="button text goes here!" link="https://collectionbuilder.github.io/" color="danger" %}
+
+
+
+## Publications
 
 Justison, Solis-Lemus, Heath. 2023. SiPhyNetwork: An R package for simulating phylogenetic networks. Methods in Ecology and Evolution, in press.
 
