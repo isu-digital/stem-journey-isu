@@ -12,7 +12,7 @@
 #url: https://collectionbuilder.github.io 
 # baseurl is path to location on the domain if necessary e.g. /digital/hjccc
 # on GitHub Pages it is your github repository's name prefixed with a /
-#baseurl: /collectionbuilder-gh 
+baseurl: /stem-journey-isu
 # location of code, the full url to your github repository
 source-code: https://github.com/uidaholib/oral-history-as-data
 
@@ -43,7 +43,7 @@ metadata: demo-metadata
 # organization-name: "Iowa State University"
 # organization-link: https://tracingrace.iastatedigital.org/asian-womeninstem-isu/
 # organization-logo-banner: https://cdil.lib.uidaho.edu/images/cdil-blacktransparent-logo.png
-organization-logo-nav: assets/img/tr-bw-logo.jpg
+organization-logo-nav: /assets/img/tr-bw-logo.jpg
 
 
 
