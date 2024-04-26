@@ -31,7 +31,7 @@ Her advocacy extends beyond mere words; Dr. Ikuma actively promotes the creation
 
 In sharing her story and insights, Dr. Ikuma inspires us to embrace diversity and inclusivity in all facets of life. Her journey serves as a beacon of hope and empowerment for aspiring academics, demonstrating the transformative power of embracing diverse perspectives and voices in the pursuit of knowledge and progress.
 
-{% include feature/image.html objectid="/assets/img/Headshot_ikuma_Kaoru.jpeg" alt="Professor Ikuma" caption="Dr. Tracy Heath" link="http://127.0.0.1:4000/transcripts/heath_tracy.html" width="50" %}
+{% include feature/image.html objectid="/assets/img/Headshot_ikuma_Kaoru.jpg" alt="Professor Ikuma" caption="Dr. Ikuma" link="https://isu-digital.github.io/stem-journey-isu/transcripts/drikuma.html" width="50" %}
 
 Education
 
@@ -41,5 +41,13 @@ Education
 - B.S. Biology, Virginia Polytechnic Institute and State University, 2005
 
 {% include feature/button.html text="Dr. Ikuma's research website" link="https://sites.google.com/site/ikumalabisu/home?authuser=0" color="success" %}
+
+## Publications
+
+Croll H.C.*, Ikuma K., Ong S.K., Sarkar S. Systematic performance evaluation of reinforcement learning algorithms applied to wastewater treatment control optimization. Environmental Science & Technology 2023, in press. 
+Croll H.*, Ikuma K., Sarkar S., Ong S.K. Reinforcement learning applied to wastewater treatment process control optimization: Approaches, challenges, and path forward. Critical Reviews in Environmental Science and Technology 2023. [doi.org/10.1080/10643389.2023.2183699]  
+Brown P.*, Ikuma K., Ong S. K. Biological phosphorus removal and its microbial community in a modified full-scale activated sludge system under dry and wet weather dynamics. Water Research 2022, 216: 118338. [doi.org/10.1016/j.watres.2022.118338]
+Spellman C. D., Daer S.*, Ikuma K., Silverman I., Goodwill J. E. Sulfite-activated ferrate for water reuse applications. Water Research 2022, 216: 118317. [doi:10.1016/j.waterres.2022.118317]
+Daer S.*, Rehmann E., Rehmann J., Ikuma K. Development of resistance in Escherichia coli against repeated disinfection: Implications for water reuse. Frontiers in Environmental Science 2022, 14 March 2022. [doi:10.3389/fenvs.2022.855224]
 
 

@@ -16,8 +16,6 @@ Dr. Tracy Heath, an associate professor at Iowa State University, specializing i
 
 With postdoctoral experience at the University of Kansas and UC Berkeley, Dr. Heath developed expertise in analyzing species-level biodiversity data. Her current research focuses on macroevolution and patterns of biodiversity, blending computation and biology.
 
-{% include feature/image-float.html objectid="/assets/img/Interview_Tracy_Heath.jpg" width="50" float="end" caption="Dr. Tracy Heath" alt="headshot image of Dr. Tracy Heath" %}
-
 Despite early challenges in her undergraduate years, Dr. Heath found her passion for evolutionary biology through research. She emphasizes the importance of continuous learning and progress in achieving success.
 
 Dr. Heath's research achievements include expanding models for understanding species diversification and contributing to groundbreaking projects, such as the discovery of the largest fossil penguin species.
@@ -39,7 +37,7 @@ B.A., Biology, Boston University, 2000
 
 Ph.D., Ecology, Evolution, and Behavior, University of Texas at Austin, 2008
 
-{% include feature/button.html text="button text goes here!" link="https://collectionbuilder.github.io/" color="danger" %}
+{% include feature/button.html text="Dr. Heath's website" link="https://phyloworks.org/" color="danger" %}
 
 
 

@@ -5,6 +5,10 @@ title: Dr. Liu Lu
 
 {% include feature/jumbotron.html objectid="assets/img/isu-campanile.jpeg" %}
 
+{:.pt-5}
+## Dr. Liu Lu
+
+{:.pt-4}
 ### ***Seizing Opportunities: Dr. Lu Liu’s Inspiring Journey in STEM***
 
 
@@ -12,7 +16,7 @@ title: Dr. Liu Lu
 Dr. Lu Liu, a leading researcher in civil engineering and environmental science, shared her inspiring journey in STEM during our interview. Originally from China, she earned her bachelor's and master's degrees in environmental science at the University of Oklahoma before completing her Ph.D. in civil engineering in 2017. Driven by a passion for sustainable engineering, she joined Iowa State University as a faculty member in 2021.
 
 
-{% include feature/image.html objectid="/assets/img/Interview_Lu_Liu.jpg" alt="Interview with Professor Liu Lu" caption="Dr. Liu Lu" link="/transcripts/Liu_Lu.html" width="50" %}
+{% include feature/image.html objectid="/assets/img/Interview_Lu_Liu.jpg" alt="Interview with Professor Liu Lu" caption="Dr. Liu Lu" link="https://isu-digital.github.io/stem-journey-isu/transcripts/Liu_Lu.html" width="50" %}
 
 
 *“Engineering, especially civil engineering, is a very traditional type of study. They haven’t seen many faces like this, so they’re kind of skeptical.”*
@@ -42,7 +46,7 @@ M.S. Environmental Science, University of Oklahoma, 2012
 
 B.S. Environmental Science, University of Oklahoma, 2010
 
-{% include feature/button.html text="button text goes here!" link="https://collectionbuilder.github.io/" color="primary" %}
+{% include feature/button.html text="Dr. Lu's research website" link="https://www.ccee.iastate.edu/liugroup-human-env-research/research/" color="primary" %}
 
 ### Publications
 
@@ -64,9 +68,5 @@ B.S. Environmental Science, University of Oklahoma, 2010
 (8)      Scott, M. J.; Daly, D. S.; Hejazi, M. I.; Kyle, G. P.; Liu, L.; McJeon, H. C.; Mundra, A.; Patel, P. L.; Rice, J. S.; Voisin, N. Sensitivity of Future U.S. Water Shortages to Socioeconomic and Climate Drivers: A Case Study in Georgia Using an Integrated Human-Earth System Modeling Framework. Clim. Change 2016, 136 (2), 233–246. <https://doi.org/10.1007/s10584-016-1602-8>
 
 (9)      Kim, S. H.; Hejazi, M.; Liu, L.; Calvin, K.; Clarke, L.; Edmonds, J.; Kyle, P.; Patel, P.; Wise, M.; Davies, E. Balancing Global Water Availability and Use at Basin Scale in an Integrated Assessment Model. Clim. Change 2016, 136 (2), 217–231. <https://doi.org/10.1007/s10584-016-1604-6>
-
-(10)      Li, H.-Y.; Ruby Leung, L.; Tesfa, T.; Voisin, N.; Hejazi, M.; Liu, L.; Liu, Y.; Rice, J.; Wu, H.; Yang, X. Modeling Stream Temperature in the Anthropocene: An Earth System Modeling Approach. J. Adv. Model. Earth Syst. 2015, 7 (4), 1661–1679. <https://doi.org/10.1002/2015MS000471>
-
-(11)      Liu, L.; Hejazi, M.; Patel, P.; Kyle, P.; Davies, E.; Zhou, Y.; Clarke, L.; Edmonds, J. Water Demands for Electricity Generation in the U.S.: Modeling Different Scenarios for the Water-Energy Nexus. Technol. Forecast. Soc. Change2015, 94, 318–334. <https://doi.org/10.1016/j.techfore.2014.11.004>
 
 #### For more research work check out Professor Lu's Website:  [The Liu Group: Human-Environment Systems Research](https://www.ccee.iastate.edu/liugroup-human-env-research/research/)
