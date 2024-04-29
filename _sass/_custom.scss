@@ -48,6 +48,7 @@
 .iframe-wrapper{
 position: fixed;
   right: 10px;
+  bottom: 20em;
   height: 200px;
   width: 370px;
   transition: all 1s linear;
@@ -64,6 +65,10 @@ position: fixed;
       display: none;
     }
   }
+}
+
+.featured-filter p.words {
+  background:aquamarine;
 }
 
 .anchored-highlight p.words{background:aquamarine;}
