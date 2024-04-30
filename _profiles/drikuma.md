@@ -13,7 +13,7 @@ title: Dr. Kaoru Ikuma
 
 Meet Dr. Kaoru Ikuma, an accomplished Associate Professor and Cerwick Faculty Fellow at Iowa State University. Her research endeavors center around environmental microbiology and biotechnology, with a particular focus on biodegradation of hazardous contaminants and sustainable water and wastewater treatment. Beyond her scientific pursuits, Kaoru is a strong advocate for water security and environmental justice, seeking to make a positive impact in the realm of environmental biofilm microbiology. 
 
-{% include feature/image.html objectid="/assets/img/Interview_Professor Kaoru Ikuma.jpg" alt="Interview with Professor Kaoru Ikuma" caption="Dr. Ikuma Kaoru" link="http://127.0.0.1:4000/transcripts/heath_tracy.html" width="50" %}
+{% include feature/image.html objectid="/assets/img/Interview_Professor Kaoru Ikuma.jpg" alt="Interview with Professor Kaoru Ikuma" caption="Dr. Ikuma Kaoru" link="https://isu-digital.github.io/stem-journey-isu/transcripts/drikuma.html" width="50" %}
 
 Driven by a thirst for knowledge and a desire to make a meaningful impact, Dr. Ikuma pursued research fervently during her master's and doctoral studies. Her dedication and expertise flourished, propelling her to seek new opportunities and broaden her horizons through postdoctoral positions. In 2015, she found her academic home at Iowa State University, where she later achieved the significant milestone of tenure in 2022.
 

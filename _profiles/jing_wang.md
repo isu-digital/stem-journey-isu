@@ -30,7 +30,7 @@ Throughout her journey, Professor Wang credits her success to the guidance of re
 
 Professor Jing Wang's story serves as an inspiration for aspiring researchers, highlighting the potential for innovation and impact in biomedical engineering. Her insights resonate with the narrative of determined women thriving in STEM, offering encouragement and guidance to those following in her footsteps. Watch the interview for more insights from Professor Wang herself.
 
-{% include feature/image.html objectid="/assets/img/Headshot_Jing Wang" alt="Interview with Professor Jing Wang" caption="Dr. Jing Wang" link="http://127.0.0.1:4000/transcripts/heath_tracy.html" width="50" %}
+{% include feature/image.html objectid="/assets/img/HeadshotJing Wang.jpg" alt="Interview with Professor Jing Wang" caption="Dr. Jing Wang" link="http://127.0.0.1:4000/transcripts/heath_tracy.html" width="50" %}
 
 ## Education
 

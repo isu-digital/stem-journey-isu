@@ -10,7 +10,7 @@ title: Dr. Anwesha Sarkar
 
 Professor Anwesha Sarkar is a physicist whose STEM journey was inspired by her mother, a math teacher. Raised in India, Anwesha pursued physics, earning degrees from St. Xavier’s College, IIT Madras, and Wayne State University. Despite male-dominated environments, she excelled, delving into bioengineering collaborations and embracing physics-biology intersections.
 
-{% include feature/image.html objectid="/assets/img/Interview_Anwesha_Sarkar.jpg" alt="Interview with Professor Anwesha Sarkar" caption="Dr. Anwesha Sarkar" link="http://127.0.0.1:4000/transcripts/sarkar_anwesha.html" width="50" %}
+{% include feature/image.html objectid="/assets/img/Interview_Anwesha_Sarkar.jpg" alt="Interview with Professor Anwesha Sarkar" caption="Dr. Anwesha Sarkar" link="https://isu-digital.github.io/stem-journey-isu/transcripts/sarkar_anwesha.html" width="50" %}
 
 Throughout her academic journey, Professor Anwesha thrived in institutions where the male-to-female student ratio was heavily skewed, showcasing her natural aptitude for physics. She solidified her decision to focus on physics by exploring bioengineering and biophysics collaborations, revealing exciting intersections between physics and biology.
 

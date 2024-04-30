@@ -12,7 +12,7 @@ title: Dr. Tracy Heath
 
 Dr. Tracy Heath, an associate professor at Iowa State University, specializing in Ecology, Evolution, and Organismal Biology. Originally from the southwestern US, Dr. Heath's academic journey began at Boston University, where she studied biology, focusing on evolutionary biology and vertebrate organisms. She later pursued computational methods and phylogenetic trees at the University of Texas under Dr. David Hillis.
 
-{% include feature/image.html objectid="/assets/img/Interview_Tracy_Heath.jpg" alt="Interview with Professor Tracy Heath" caption="Dr. Tracy Heath" link="http://127.0.0.1:4000/transcripts/heath_tracy.html" width="50" %}
+{% include feature/image.html objectid="/assets/img/Interview_Tracy_Heath.jpg" alt="Interview with Professor Tracy Heath" caption="Dr. Tracy Heath" link="https://isu-digital.github.io/stem-journey-isu/transcripts/heath_tracy.html" width="50" %}
 
 With postdoctoral experience at the University of Kansas and UC Berkeley, Dr. Heath developed expertise in analyzing species-level biodiversity data. Her current research focuses on macroevolution and patterns of biodiversity, blending computation and biology.
 
