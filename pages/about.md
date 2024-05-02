@@ -6,23 +6,29 @@ object-id: about
 permalink: /about.html
 ---
 
-Diversity is the driving force behind innovation and progress. In the corridors of academia, every untold story holds the potential to inspire change. The project “Exploring the Journey of Asian Women in STEM at ISU” embarked on a quest to unveil the narratives, challenges, and triumphs of Asian women faculty members in STEM fields at Iowa State University (ISU). As this journey draws to a close, we are left with an enriched perspective, an ignited passion, and a newfound appreciation for the power of diverse voices.
+##  The Project
 
-The seeds of this exploration were sown through planning and a carefully designed questionnaire. This blueprint was not just a set of questions but a guide to navigate the narratives of these remarkable women. It ensured that the interviews would delve deep into their experiences, providing insights that could paint a comprehensive picture.
+"Exploring the Journey of Asian Women in STEM at ISU" was initiated as a comprehensive exploration of narratives, challenges, and triumphs experienced by Asian women faculty members in STEM fields at Iowa State University (ISU). The project was conducted in two phases, with the first phase taking place during the Summer of 2023.
 
-During the months of June and July, virtual conversations came to life—six captivating interviews that showcased the essence of these professors’ journeys. Within those intimate dialogues lay stories of grit, determination, and unwavering commitment to the STEM fields. These weren’t just conversations; they were the cadence of inspiration echoing through the digital realm.
+In this initial phase, I conducted oral history interviews with Asian women faculty members at ISU, completing a total of 6 interviews representing various STEM disciplines. These interviews were aimed at uncovering the unique experiences and perspectives of these women in academia.
 
-As each professor shared her unique trajectory, common threads emerged—stories of overcoming adversities, defying norms, and achieving milestones once considered out of reach. These narratives aren’t tales of privilege; they’re tales of unyielding persistence, reminding us that the pursuit of excellence knows no boundaries.
+To make these interviews accessible to the public, a WordPress website was built as part of the same phase. This website served as a platform to showcase the interviews and related content, allowing for a broader audience to engage with the stories shared by these remarkable women.
 
- Beyond their personal journeys, these professors are actively shaping the present and future. Their cutting-edge research, coupled with their endeavors to foster inclusivity and diversity, highlight their commitment to pushing boundaries. Through their work, they are leaving footprints for others to follow—a legacy that transcends disciplines and empowers generations to come.
+In the spring semester, I worked on phase 2 of the project, which involved creating a multimedia website with the integration of Oral History as a Data (OHD) tool. This tool enhances the viewing experience by allowing for the analysis and publication of coded oral history or qualitative interview files, providing users with a more interactive experience.
 
-This project’s culmination presents us with more than just interviews—it unveils a canvas painted with diverse hues of struggle, triumph, and progress. It’s a testament to the indomitable spirit that propels these women to achieve greatness. Their stories echo beyond the digital realm, resonating in the hearts of those who are determined to break barriers.
+Throughout this process, the team at ISU library, especially those overseeing the Tracing Race project, provided invaluable support. Their expertise in website building and technical aspects of the project were instrumental in its success.
 
-In Conclusion: Capturing the Essence: “Exploring the Journey of Asian Women in STEM at ISU” isn’t just a project; it’s a celebration of the human spirit’s resilience and ambition. These narratives remind us that every story has the power to illuminate a path for others. As we close this chapter, we invite you to wander through the digital pages of our website, where these interviews and blogs reside. May these stories serve as a constant reminder that diversity isn’t just a goal; it’s a journey that shapes us all—individually and collectively.
+Overall, this project has been a journey of discovery and empowerment, highlighting the importance of inclusivity and diversity in academia. As we conclude this project, we invite you to explore our website and delve into these inspiring interviews, as they serve as a reminder that diversity is a journey that enriches us all
 
+## About the researcher
 
+ I’m Mansi Patel, an Information Systems enthusiast with an innate fascination for data and its potential to reshape our world. Through meticulous attention to detail, I’ve found my passion lies in deciphering the intricate stories hidden within datasets.
 
- 
+ {% include feature/image.html objectid="/assets/img/Mansiheadshot.jpg.jpg" alt="Professor Ikuma" caption="Mansi Patel" link="https://isu-digital.github.io/stem-journey-isu/transcripts/drikuma.html" width="50" %}
+
+My journey led me to Iowa State University, where I’ve been fortunate to assume the role of a Graduate Assistant. Guiding first-year students and providing academic support has allowed me to witness the power of mentorship. Beyond the academic realm, I’ve embarked on a remarkable research project that delves into the journeys of Asian women in STEM fields. Through interviews, conversations, and analysis, I’ve had the privilege of unraveling their stories of resilience, accomplishments, and contributions to academia.
+
+I hope that this digital platform has succeeded in its goal of amplifying the narratives of Asian women in STEM, effectively sharing their contributions and journeys as originally envisioned when this project began.
 
 
 
