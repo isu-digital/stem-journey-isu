@@ -1,5 +1,5 @@
 <script type="text/javascript">
- 
+
 $("#filters").on('change', function () {
   console.log('go');
   if (myClass == "all"){
@@ -64,51 +64,50 @@ $("button.reset").click(function() {
 });
 
 
- function filterLines() {
-    $('.line').removeClass("anchored-highlight");
-    $(".line").removeClass("featured");
-    $("div").removeClass("grey-small"); 
-    $(".line").addClass("grey");
-    var input, filter, p, span, i;
-    input = document.getElementById("quicksearch");
-    let url = new URL(window.location);
-    let params = url.searchParams;
-    params.set('q', input.value);
-    // add filter to url path
-    var p = params.toString();
-    window.history.replaceState({}, '', location.pathname + '?' + p);
-    filterplain = input.value;
-    filter = input.value.toUpperCase();
-    itemcontainer = document.getElementById("contents-container");
-    item = itemcontainer.getElementsByClassName("line");
-    //$(item).addClass("anchored-highlight");
-    var searchResults = '<option>Select and scroll to a matching line</option>';
-    for (i = 0; i < item.length; i++) {
-      itemcontents = item[i].getElementsByClassName("words")[0];
-      var index = itemcontents.innerHTML.indexOf(filterplain);
-      if (itemcontents) {
-        if (itemcontents.innerHTML.toUpperCase().indexOf(filter) > -1) {
-          itemcontents.classList.add("featured");
-          itemcontents.classList.remove("grey");
-          searchResults += '<option class=text-truncate" style="max-width: 250px;" value="'+ i +'">Line ' + i + ' -- ' + itemcontents.innerHTML.substring(0,125) + '...</option>';
-          itemcontents.innerHTML = itemcontents.innerHTML.replace(filterplain, "<span class='text-danger'>" + filterplain + "</span>");
-          } else {
-        }
+function filterLines() {
+  $('.line').removeClass("anchored-highlight");
+  $(".line").removeClass("featured");
+  $("div").removeClass("grey-small"); 
+  $(".line").addClass("grey");
+  var input, filter, p, span, i;
+  input = document.getElementById("quicksearch");
+  let url = new URL(window.location);
+  let params = url.searchParams;
+  params.set('q', input.value);
+  // add filter to url path
+  var p = params.toString();
+  window.history.replaceState({}, '', location.pathname + '?' + p);
+  filterplain = input.value;
+  filter = input.value.toUpperCase();
+  itemcontainer = document.getElementById("contents-container");
+  item = itemcontainer.getElementsByClassName("line");
+  //$(item).addClass("anchored-highlight");
+  var searchResults = '<option>Select and scroll to a matching line</option>';
+  for (i = 0; i < item.length; i++) {
+    itemcontents = item[i].getElementsByClassName("words")[0];
+    var index = itemcontents.innerHTML.indexOf(filterplain);
+    if (itemcontents) {
+      if (itemcontents.innerHTML.toUpperCase().indexOf(filter) > -1) {
+        itemcontents.classList.add("featured");
+        itemcontents.classList.remove("grey");
+        searchResults += '<option class=text-truncate" style="max-width: 250px;" value="'+ i +'">Line ' + i + ' -- ' + itemcontents.innerHTML.substring(0,125) + '...</option>';
+        itemcontents.innerHTML = itemcontents.innerHTML.replace(filterplain, "<span class='text-danger'>" + filterplain + "</span>");
+        } else {
       }
-      $("#filters").val($("#filters option:first").val("search filtering"));
-
-     var numberofint = $('.featured').length;
-     $("#numberof").html(numberofint + " lines match your query");
-     $("#searchResults").html(searchResults);
-     $('.linecount').removeClass('d-none');
-     $('.filter-search').removeClass('d-none');
-     $("#numberoffilters").html("");
-    $('.filtercount').addClass('d-none'); 
     }
+    $("#filters").val($("#filters option:first").val("search filtering"));
+    var numberofint = $('.featured').length;
+    $("#numberof").html(numberofint + " lines match your query");
+    $("#searchResults").html(searchResults);
+    $('.linecount').removeClass('d-none');
+    $('.filter-search').removeClass('d-none');
+    $("#numberoffilters").html("");
+    $('.filtercount').addClass('d-none'); 
   }
+}
 
 
-  function scrollToLine() {
+function scrollToLine() {
   var line_array_num = document.getElementById('searchResults').value;
   const featured_lines = document.getElementsByClassName('line');
   var line_num = parseInt(line_array_num);
@@ -174,5 +173,31 @@ var hashfilter = decodeURIComponent(location.hash.substr(1));//.replace(/%20/g, 
               $("rect").not('.dark').closest('div.vizdiv').removeClass("hidden");
           }
   
+// change iframe position to absolute when the footer approaches
+window.addEventListener('scroll', function() {
+  var footer = document.querySelector('.footer');
+  var fixedElement = document.querySelector('.iframe-wrapper');
 
+  // don't implement until 4000px scrolled to prevent interference with video at the top of the page
+  if (window.pageYOffset >= 4000) {
+      // get the top of the footer relative to the viewport
+      var footerPosition = footer.getBoundingClientRect().top;
+      var windowHeight = window.innerHeight;
+
+      // calculate when the fixed element is about to overlap or approach the footer
+      if (footerPosition < windowHeight) {
+          // approaching the footer, change the bottom to 620px
+          fixedElement.style.position = 'fixed';
+          fixedElement.style.bottom = '620px';
+      } else {
+          // not approaching the footer, keep the bottom at 320px
+          fixedElement.style.position = 'fixed';
+          fixedElement.style.bottom = '320px';
+      }
+  } else {
+      // below 4000 pixels, reset to the initial style, clear inline styles
+      fixedElement.style.position = '';
+      fixedElement.style.bottom = '';
+  }
+});
 </script>

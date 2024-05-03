@@ -48,10 +48,10 @@
 .iframe-wrapper{
 position: fixed;
   right: 10px;
-  bottom: 20em;
+  bottom: 320px;
   height: 200px;
   width: 370px;
-  transition: all 1s linear;
+  //transition: all 1s linear;
   .meta{display: none;}
   @include media-query($on-palm) {
     bottom: 0px;
