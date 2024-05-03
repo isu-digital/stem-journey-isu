@@ -3,6 +3,15 @@
     This allows you to override any CollectionBuilder or Bootstrap CSS without modifying the base theme files directly.
 */
 
+/* tooltip */
+.tooltip > .tooltip-inner {
+  font-size:16px;
+  max-width: 500px !important;
+  @include media-query($on-palm) {
+      max-width: 300px !important;
+      font-size:11px;
+  }
+}
 
 @media print {
     
@@ -52,7 +61,10 @@ position: fixed;
   height: 200px;
   width: 370px;
   //transition: all 1s linear;
-  .meta{display: none;}
+  .meta {
+    display: none;
+  }
+
   @include media-query($on-palm) {
     bottom: 0px;
     left: 0px;
@@ -61,40 +73,86 @@ position: fixed;
     .meta{
       display: none;
     }
-    .vizdiv{
+    .vizdiv, #colorViz, .title {
       display: none;
     }
   }
 }
 
+/*
 .featured-filter p.words {
   background:aquamarine;
 }
+*/
 
-.anchored-highlight p.words{background:aquamarine;}
-.featured{display:block;float:none; clear:both;}
-.linenum{ font-size:11px; float:left;width:auto;}
-.words{
-  @include media-query($on-palm) {min-width: 250px;}}
-
-
-.filteroptions, .searchinput{font-size:24px; 
-  @include media-query($on-palm) { font-size:18px;}}
-  
-
-
-.toggle_int:hover{color:pink}
-.toggle_int small{font-size:12px;}
-
-element {
-
+.anchored-highlight p.words {
+  background:aquamarine;
 }
-.featured {
 
-    background-color: #dbf1fd !important;
+/*
+.featured {
+  display:block;
+  float:none;
+  clear:both;
+}
+*/
+
+.linenum {
+  font-size:11px;
+  float:left;
+  width:auto;
+}
+
+.words {
+  @include media-query($on-palm) {
+    min-width: 250px;
+  }
+}
+
+.filteroptions, .searchinput {
+  font-size:24px; 
+
+  @include media-query($on-palm) { 
+    font-size:18px;
+  }
+}
+
+.toggle_int:hover {
+  color:pink
+}
+
+.toggle_int small {
+  font-size:12px;
+}
+
+.darklink:hover{
+  text-decoration: underline;
+}
+
+.featured {
+  background-color: aquamarine !important;
   color: black !important;
+}
+
+.border-featured {
+  border-left: 1px solid aquamarine !important;
+  border-left-width: thick !important;
+  background-color: #f8f9fa !important;
 }
 
 .btn-outline-dark:hover {
   background-color: #212529 !important;
+}
+
+#wrapper {
+  overflow-x: hidden;
+}
+
+/* narrow text block for page-narrow layout */
+.page-narrow {
+  .container, h1, h2, h3, h4, h5, h6, p, ol, ul, .footnotes, .narrow-content { 
+      max-width: 1100px;
+      margin-left: auto;
+      margin-right: auto; 
+  }
 }
