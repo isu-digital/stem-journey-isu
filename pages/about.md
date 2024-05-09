@@ -6,6 +6,9 @@ object-id: about
 permalink: /about.html
 ---
 
+# About
+
+{:.pt-4}
 ##  The Project
 
 "Exploring the Journey of Asian Women in STEM at ISU" was initiated as a comprehensive exploration of narratives, challenges, and triumphs experienced by Asian women faculty members in STEM fields at Iowa State University (ISU). The project was conducted in two phases, with the first phase taking place during the Summer of 2023.
@@ -22,14 +25,12 @@ Overall, this project has been a journey of discovery and empowerment, highlight
 
 ## About the researcher
 
- I’m Mansi Patel, an Information Systems enthusiast with fascination for data and its potential to reshape our world. Through attention to detail, I’ve found my passion in stories hidden within datasets.
+I’m Mansi Patel, an Information Systems enthusiast with fascination for data and its potential to reshape our world. Through attention to detail, I’ve found my passion in stories hidden within datasets.
 
- {% include feature/image.html objectid="/assets/img/Mansiheadshot.jpg" caption="Mansi Patel" link="https://isu-digital.github.io/stem-journey-isu/transcripts/drikuma.html" width="50" %}
+{% include feature/image-float.html objectid="/stem-journey-isu/assets/img/Mansiheadshot.jpg" caption="Mansi Patel" float="start" link="/stem-journey-isu/transcripts/drikuma.html" width="25" %}
 
 My journey led me to Iowa State University, where I’ve been fortunate to assume the role of a Graduate Assistant. Guiding first-year students and providing academic support has allowed me to witness the power of mentorship. Beyond the academic realm, I’ve embarked on a remarkable research project that dives into the journeys of Asian women in STEM fields. Through interviews, conversations, and analysis, I’ve had the privilege of unraveling their stories of resilience, accomplishments, and contributions to academia.
 
 I hope that this digital platform has succeeded in its goal of amplifying the narratives of Asian women in STEM, effectively sharing their contributions and journeys as originally envisioned when this project began.
 
-
-
-
+<div class="clearfix"></div>
