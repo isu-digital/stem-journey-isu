@@ -3,10 +3,8 @@ object-id: jing_wang
 title: Dr. Jing Wang
 ---
 
-{% include feature/jumbotron.html objectid="assets/img/isu-campanile.jpeg" %}
+{% include feature/jumbotron.html objectid="assets/img/ISU_Image.jpeg" text="Dr. Jing Wang" %}
 
-{:.pt-5}
-## Dr. Jing Wang
 
 {:.pt-4}
 ### ***Unveiling Pathways: Inspiring Insights from Prof. Jing Wang’s Voyage in Biomedical Engineering***

@@ -3,10 +3,7 @@ object-id: drikuma
 title: Dr. Kaoru Ikuma
 ---
 
-{% include feature/jumbotron.html objectid="assets/img/isu-campanile.jpeg" %}
-
-{:.pt-5}
-## Dr. Kaoru Ikuma
+{% include feature/jumbotron.html objectid="assets/img/ISU_Image.jpeg" text="Dr. Kaoru Ikuma" %}
 
 {:.pt-4}
 ### ***From Microbiology to Environmental Engineering: Dr. Kaoru Ikuma’s Journey in Academia and Advocacy for Diversity of Thoughts***
