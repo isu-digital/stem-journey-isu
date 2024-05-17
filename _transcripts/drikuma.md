@@ -1,6 +1,6 @@
 ---
 object-id: drikuma
-title: Interview with Professor Ikuma
+title: Dr. Ikuma
 date-interviewed: June, 2023
 interviewer: Mansi Patel
 location: Ames, Iowa
