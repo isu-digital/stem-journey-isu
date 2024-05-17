@@ -3,7 +3,7 @@ object-id: Liu_Lu
 title: Dr. Liu Lu
 ---
 
-{% include feature/jumbotron.html objectid="assets/img/ISU_Image.jpeg" text="Dr. Liu Lu" %}
+{% include feature/jumbotron.html objectid="assets/img/ISU_Image.jpeg" title="Dr. Liu Lu" text=false %}
 
 {:.pt-4}
 ### ***Seizing Opportunities: Dr. Lu Liu’s Inspiring Journey in STEM***

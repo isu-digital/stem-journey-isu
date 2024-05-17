@@ -3,7 +3,7 @@ object-id: jing_wang
 title: Dr. Jing Wang
 ---
 
-{% include feature/jumbotron.html objectid="assets/img/ISU_Image.jpeg" text="Dr. Jing Wang" %}
+{% include feature/jumbotron.html objectid="assets/img/ISU_Image.jpeg" title="Dr. Jing Wang" text=false %}
 
 
 {:.pt-4}

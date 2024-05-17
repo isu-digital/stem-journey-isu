@@ -3,7 +3,7 @@ object-id: sarkar_anwesha
 title: Dr. Anwesha Sarkar
 ---
 
-{% include feature/jumbotron.html objectid="assets/img/ISU_Image.jpeg" text="Dr. Anwesha Sarkar" %}
+{% include feature/jumbotron.html objectid="assets/img/ISU_Image.jpeg" title="Dr. Anwesha Sarkar" text=false %}
 
 ### ***Unwavering Perseverance: The Inspiring Journey of Professor Anwesha Sarkar in STEM***
 

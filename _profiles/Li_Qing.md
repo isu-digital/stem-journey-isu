@@ -2,7 +2,7 @@
 object-id: Li_Qing
 title: Dr. Qing Li
 ---
-{% include feature/jumbotron.html objectid="assets/img/ISU_Image.jpeg" text="Dr. Qing Li" %}
+{% include feature/jumbotron.html objectid="assets/img/ISU_Image.jpeg" title="Dr. Qing Li" text=false %}
 
 
 {:.pt-4}

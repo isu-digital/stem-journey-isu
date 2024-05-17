@@ -2,7 +2,8 @@
 object-id: heath_tracy
 title: Dr. Tracy Heath
 ---
-{% include feature/jumbotron.html objectid="assets/img/ISU_Image.jpeg" text="Dr. Tracy Heath" %}
+
+{% include feature/jumbotron.html objectid="assets/img/ISU_Image.jpeg" title="Dr. Tracy Heath" text=false %}
 
 {:.pt-4}
 ### ***Embracing Diversity and Advancing Research: A Journey with Professor Dr. Tracy Heath***
