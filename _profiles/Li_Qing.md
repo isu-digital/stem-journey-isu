@@ -4,7 +4,6 @@ title: Dr. Qing Li
 ---
 {% include feature/jumbotron.html objectid="assets/img/ISU_Image.jpeg", "Dr. Qing Li" %}
 
-
 {:.pt-4}
 ### ***Diversity and Determination: Professor Li’s Impact in STEM***
 
