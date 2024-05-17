@@ -17,7 +17,7 @@ In this initial phase, I conducted oral history interviews with Asian women facu
 
 To make these interviews accessible to the public, a WordPress website was built as part of the same phase. This website served as a platform to showcase the interviews and related content, allowing for a broader audience to engage with the stories shared by these remarkable women.
 
-In the spring semester, I worked on phase 2 of the project, which involved creating a multimedia website with the integration of Oral History as a Data (OHD) tool. This tool enhances the viewing experience by allowing for the analysis and publication of coded oral history or qualitative interview files, providing users with a more interactive experience.
+In the spring semester, I worked on phase 2 of the project, which involved creating a multimedia website with the integration of Oral History as a Data (OHD) tool. This tool enhances the viewing experience by allowing for the analysis and publication of coded oral history or qualitative interview files, providing users with a more interactive experience. Check out the theme page: {% include feature/button.html text="Themes Page" link="[https://www.imse.iastate.edu/directory/qing-li/](https://isu-digital.github.io/stem-journey-isu/subjects.html)" color="danger" %} 
 
 Throughout this process, the team at ISU library, especially those overseeing the Tracing Race project, provided invaluable support. Their expertise in website building and technical aspects of the project were instrumental in its success.
 
