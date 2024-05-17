@@ -2,10 +2,8 @@
 object-id: Li_Qing
 title: Dr. Qing Li
 ---
-{% include feature/jumbotron.html objectid="assets/img/isu-campanile.jpeg" %}
+{% include feature/jumbotron.html objectid="assets/img/isu-campanile.jpeg", "Dr. Qing Li" %}
 
-{:.pt-5}
-## Dr. Qing Li
 
 {:.pt-4}
 ### ***Diversity and Determination: Professor Li’s Impact in STEM***
