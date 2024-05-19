@@ -6,20 +6,36 @@
         background-position: center;
     }
     #home-title-box {
-        padding-top: 5em;
-        padding-bottom: 5em;
+        padding-top: 3em;
     }
     @media screen and (max-width: 576px) {
         #home-title-box {
             max-height: 500px;
+            padding-top: 2em;
+            padding-bottom: 1em;
         }
+        .site-title {
+            padding-left: 10px !important;
+            font-size: 2.5em !important;
+        }
+        .site-tagline {
+            padding-left: 10px !important;
+        }
+    }
+    .site-title {
+        font-size: 60px;
+        padding-left: 250px;
+    }
+    .site-tagline {
+        font-size: 30px;
+        padding-left: 250px;
     }
 </style>
 <div id="home-banner" class="container-fluid mb-0 p-0">
     <div class="row align-items-center">
-        <div id="home-title-box" class="{% if site.organization-logo-banner %}col-md-9{% else %}col-12{% endif %}">
-            <h1 class="mt-2"><a class="text-dark" href="{{ site.baseurl }}/" >{{ site.title }}</a></h1>	 
-            {% if site.tagline %}<p>{{ site.tagline }}</p>{% endif %}
+        <div id="home-title-box" class="col-md-10">
+            <h1 class="mt-2 site-title"><a class="text-dark" href="{{ site.baseurl }}/" >{{ site.title }}</a></h1>	 
+            {% if site.tagline %}<p class="site-tagline text-dark"><em>{{ site.tagline }}</em></p>{% endif %}
         </div>
         {% if site.organization-logo-banner %}
         <div class="col-md-3 d-none d-lg-block text-end">

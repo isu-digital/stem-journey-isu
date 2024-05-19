@@ -156,3 +156,7 @@ position: fixed;
       margin-right: auto; 
   }
 }
+
+.row {
+  --bs-gutter-x: 0 !important;
+}
