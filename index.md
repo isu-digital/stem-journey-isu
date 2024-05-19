@@ -29,7 +29,3 @@ While challenges persist, ISU is dedicated to addressing the underrepresentation
 ### Embracing Intersectional Identities:
 
 In our pursuit of a truly inclusive environment, ISU acknowledges the unique experiences of women faculty members who belong to multiple marginalized groups. Recognizing the intersectionality of gender and ethnicity, including Asian women, is crucial to understanding and addressing the specific challenges they may face. By celebrating the diverse contributions and perspectives of Asian women in academia, ISU strives to create a nurturing space where every faculty member can thrive.
-
-[GitHub Repository](https://github.com/isu-digital/stem-journey-isu)
-
-<https://github.com/isu-digital/stem-journey-isu>

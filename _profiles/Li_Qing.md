@@ -2,10 +2,8 @@
 object-id: Li_Qing
 title: Dr. Qing Li
 ---
-{% include feature/jumbotron.html objectid="assets/img/isu-campanile.jpeg" %}
+{% include feature/jumbotron.html objectid="assets/img/ISU_Image.jpeg" heading="Dr. Qing Li" text=false %}
 
-{:.pt-5}
-## Dr. Qing Li
 
 {:.pt-4}
 ### ***Diversity and Determination: Professor Li’s Impact in STEM***
@@ -26,6 +24,12 @@ In her current research pursuits, Professor Li focuses on quality-related studie
 For aspiring Asian women in STEM, Professor Li offers valuable advice: "Do not give up." Drawing from her own journey, she highlights the importance of perseverance, even in the face of adversity. Despite encountering doubts and difficulties along the way, the support from friends, family, and mentors served as pillars of strength, propelling her forward. Professor Li's story serves as an inspiring example of the transformative power of determination and resilience in achieving one's goals, making her a beacon of hope for aspiring women in STEM.
 
 In conclusion, Professor Li’s journey in STEM is a testament to the power of determination and the importance of mentorship in overcoming challenges. As a female academic in traditionally male-dominated fields, she has faced isolation and gender differences, but her unwavering perseverance and support from mentors have propelled her forward. For a more comprehensive insight into Professor Li’s inspiring journey, we invite you to watch the full interview provided above.
+
+## Professor Li's Profile
+
+Professor Li, an accomplished academic in the field of electrical engineering and industrial engineering. Professor Li’s journey in STEM began in China, where she pursued her undergraduate studies in electrical engineering. Seeking further opportunities, she moved to the United States and earned her master’s degree in electrical engineering from the University of Rochester. However, her passion for statistics led her to switch her focus to a PhD in statistics at Virginia Tech.
+
+{% include feature/image.html objectid="/assets/img/Headshot_Qing Li.jpeg" alt="Interview with Professor Tracy Heath" caption="Dr. Qing Li" link="http://127.0.0.1:4000/transcripts/heath_tracy.html" width="50" %}
 
 ## Education
 

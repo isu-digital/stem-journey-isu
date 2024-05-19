@@ -3,10 +3,7 @@ object-id: drikuma
 title: Dr. Kaoru Ikuma
 ---
 
-{% include feature/jumbotron.html objectid="assets/img/isu-campanile.jpeg" %}
-
-{:.pt-5}
-## Dr. Kaoru Ikuma
+{% include feature/jumbotron.html objectid="assets/img/ISU_Image.jpeg" heading="Dr. Kaoru Ikuma" text=false %}
 
 {:.pt-4}
 ### ***From Microbiology to Environmental Engineering: Dr. Kaoru Ikuma’s Journey in Academia and Advocacy for Diversity of Thoughts***
@@ -31,7 +28,11 @@ Her advocacy extends beyond mere words; Dr. Ikuma actively promotes the creation
 
 In sharing her story and insights, Dr. Ikuma inspires us to embrace diversity and inclusivity in all facets of life. Her journey serves as a beacon of hope and empowerment for aspiring academics, demonstrating the transformative power of embracing diverse perspectives and voices in the pursuit of knowledge and progress.
 
-{% include feature/image.html objectid="/assets/img/Headshot_ikuma_Kaoru.jpg" alt="Professor Ikuma" caption="Dr. Ikuma" link="https://isu-digital.github.io/stem-journey-isu/transcripts/drikuma.html" width="50" %}
+## Professor Ikuma's Profile
+
+Dr. Kaoru Ikuma’s journey in academia is a testament to her unwavering determination and love for learning. Born in Japan, she spent a significant part of her childhood in the United States, igniting an early fascination with the diverse world around her. Pursuing her passion for biology and biochemistry, she obtained her undergraduate degrees before making a bold switch to environmental engineering, a field where she could merge her interests seamlessly.
+
+{% include feature/image.html objectid="/assets/img/Headshot_Ikuma_Kaoru.jpeg" alt="Professor Ikuma" caption="Dr. Ikuma" link="https://isu-digital.github.io/stem-journey-isu/transcripts/drikuma.html" width="50" %}
 
 Education
 
