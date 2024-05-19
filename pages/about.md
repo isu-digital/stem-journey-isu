@@ -6,10 +6,8 @@ object-id: about
 permalink: /about.html
 ---
 
-# About
-
 {:.pt-4}
-##  The Project
+### About The Project
 
 "Exploring the Journey of Asian Women in STEM at ISU" was initiated as a comprehensive exploration of narratives, challenges, and triumphs experienced by Asian women faculty members in STEM fields at Iowa State University (ISU). The project was conducted in two phases, with the first phase taking place during the Summer of 2023.
 
@@ -23,7 +21,8 @@ Throughout this process, the team at ISU library, especially those overseeing th
 
 Overall, this project has been a journey of discovery and empowerment, highlighting the importance of inclusivity and diversity in academia. As we conclude this project, we invite you to explore our website and delve into these inspiring interviews, as they serve as a reminder that diversity is a journey that enriches us all
 
-## About the researcher
+{:.pt-4}
+### About The Researcher
 
 I’m Mansi Patel, an Information Systems enthusiast with fascination for data and its potential to reshape our world. Through attention to detail, I’ve found my passion in stories hidden within datasets.
 
