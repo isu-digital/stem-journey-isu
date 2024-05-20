@@ -37,8 +37,8 @@
                     </a>
                     <div class="dropdown-menu dropdown-menu-end">
                         {% for transcript in site.transcripts %}
-                        <a class="dropdown-item" href="{{ transcript.object-id | prepend: '/transcripts/' | relative_url }}.html">{{transcript.title}}</a>
-                        {%endfor%}
+                        <a class="dropdown-item" href="{{ transcript.object-id | prepend: '/transcripts/' | relative_url }}.html">{{ transcript.title }}</a>
+                        {% endfor %}
                     </div>
                 </li>
                 <li class="nav-item dropdown">
