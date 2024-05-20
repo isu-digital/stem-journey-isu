@@ -1,6 +1,6 @@
 ---
 object-id: Liu_Lu
-title: Interview with Professor Lu
+title: Dr. Liu Lu
 date-interviewed: June, 2023
 interviewer: Mansi Patel
 location: Ames, Iowa

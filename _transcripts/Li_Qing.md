@@ -1,6 +1,6 @@
 ---
 object-id: Li_Qing
-title: Interview with Professor Li
+title: Dr. Qing Li
 date-interviewed: June, 2023
 interviewer: Mansi Patel
 location: Ames, Iowa

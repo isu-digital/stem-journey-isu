@@ -1,6 +1,6 @@
 ---
 object-id: drikuma
-title: Dr. Ikuma
+title: Dr. Kaoru Ikuma
 date-interviewed: June, 2023
 interviewer: Mansi Patel
 location: Ames, Iowa

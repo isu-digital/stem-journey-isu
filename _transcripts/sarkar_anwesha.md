@@ -1,6 +1,6 @@
 ---
 object-id: sarkar_anwesha
-title: Interview with Professor Sarkar
+title: Dr. Anwesha Sarkar
 date-interviewed: June, 2023
 interviewer: Mansi Patel
 location: Ames, Iowa

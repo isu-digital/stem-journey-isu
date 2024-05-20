@@ -1,6 +1,6 @@
 ---
 object-id: heath_tracy
-title: Interview with Professor Heath
+title: Dr. Tracy Heath
 date-interviewed: June, 2024
 location: Ames,Iowa,United States
 av_source: Youtube
