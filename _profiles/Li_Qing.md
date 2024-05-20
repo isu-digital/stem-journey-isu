@@ -4,14 +4,12 @@ title: Dr. Qing Li
 ---
 {% include feature/jumbotron.html objectid="assets/img/ISU_Image.jpeg" heading="Dr. Qing Li" text=false %}
 
-
 {:.pt-4}
-### ***Diversity and Determination: Professor Li’s Impact in STEM***
+### Diversity and Determination: Professor Li’s Impact in STEM
 
 Professor Li, an accomplished academic in the field of electrical engineering and industrial engineering. Professor Li’s journey in STEM began in China, where she pursued her undergraduate studies in electrical engineering. Seeking further opportunities, she moved to the United States and earned her master’s degree in electrical engineering from the University of Rochester. However, her passion for statistics led her to switch her focus to a PhD in statistics at Virginia Tech.
 
-{% include feature/image.html objectid="/assets/img/Professor Qing Li.jpg" alt="Interview with Professor Qing Li" caption="Dr. Qing Li" link="https://isu-digital.github.io/stem-journey-isu/transcripts/Li_Qing.html" width="50" %}
-
+{% include feature/image.html objectid="/assets/img/Professor Qing Li.jpg" alt="Interview with Professor Qing Li" caption="Dr. Qing Li" link="/stem-journey-isu/transcripts/Li_Qing.html" width="50" %}
 
 Professor Li's journey in academia serves as a testament to resilience and determination, illuminating the challenges and triumphs faced by women in STEM fields. After completing her doctorate, she navigated through various academic roles, including a visiting assistant professorship at the University of Wisconsin-Madison's Department of Statistics, before finding her home at Iowa State University's Industrial Engineering Department in 2018.
 
@@ -25,23 +23,26 @@ For aspiring Asian women in STEM, Professor Li offers valuable advice: "Do not g
 
 In conclusion, Professor Li’s journey in STEM is a testament to the power of determination and the importance of mentorship in overcoming challenges. As a female academic in traditionally male-dominated fields, she has faced isolation and gender differences, but her unwavering perseverance and support from mentors have propelled her forward. For a more comprehensive insight into Professor Li’s inspiring journey, we invite you to watch the full interview provided above.
 
-## Professor Li's Profile
+{:.pt-3}
+####  Professor Li's Profile
 
 Professor Li, an accomplished academic in the field of electrical engineering and industrial engineering. Professor Li’s journey in STEM began in China, where she pursued her undergraduate studies in electrical engineering. Seeking further opportunities, she moved to the United States and earned her master’s degree in electrical engineering from the University of Rochester. However, her passion for statistics led her to switch her focus to a PhD in statistics at Virginia Tech.
+{:.pb-2}
 
-{% include feature/image.html objectid="/assets/img/Headshot_Qing Li.jpeg" alt="Interview with Professor Tracy Heath" caption="Dr. Qing Li" link="http://127.0.0.1:4000/transcripts/heath_tracy.html" width="50" %}
+{% include feature/image-float.html objectid="/assets/img/Headshot_Qing Li.jpeg" alt="Interview with Professor Qing Li" caption="Dr. Qing Li" link="/stem-journey-isu/transcripts/Li_Qing.html" width="25" float="start" %}
 
-## Education
+#### Education
 
-PhD, Statistics, Virginia Tech, 2015
-
-MS, Electrical Engineering, University of Rochester, 2010
-
-BE, Information and Electronics Engineering, Tsinghua University, 2008
+- Ph.D. Statistics, Virginia Tech, 2015
+- M.S. Electrical Engineering, University of Rochester, 2010
+- B.E. Information and Electronics Engineering, Tsinghua University, 2008
 
 {% include feature/button.html text="Dr. Qing's research website" link="https://www.imse.iastate.edu/directory/qing-li/" color="danger" %}
 
-## Publications
+<div class="clearfix"></div>
+
+{:.pt-3}
+#### Publications
 
 Fringe projection profilometry by conducting deep learning from its digital twinY Zheng, S Wang, Q Li, B LiOptics Express 28 (24), 36568-36583	62	2020
 

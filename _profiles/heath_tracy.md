@@ -6,11 +6,11 @@ title: Dr. Tracy Heath
 {% include feature/jumbotron.html objectid="assets/img/ISU_Image.jpeg" heading="Dr. Tracy Heath" text=false %}
 
 {:.pt-4}
-### ***Embracing Diversity and Advancing Research: A Journey with Professor Dr. Tracy Heath***
+### Embracing Diversity and Advancing Research: A Journey with Professor Dr. Tracy Heath
 
 Dr. Tracy Heath, an associate professor at Iowa State University, specializing in Ecology, Evolution, and Organismal Biology. Originally from the southwestern US, Dr. Heath's academic journey began at Boston University, where she studied biology, focusing on evolutionary biology and vertebrate organisms. She later pursued computational methods and phylogenetic trees at the University of Texas under Dr. David Hillis.
 
-{% include feature/image.html objectid="/assets/img/Interview_Tracy_Heath.jpg" alt="Interview with Professor Tracy Heath" caption="Dr. Tracy Heath" link="https://isu-digital.github.io/stem-journey-isu/transcripts/heath_tracy.html" width="50" %}
+{% include feature/image.html objectid="/assets/img/Interview_Tracy_Heath.jpg" alt="Interview with Professor Tracy Heath" caption="Dr. Tracy Heath" link="/stem-journey-isu/transcripts/heath_tracy.html" width="50" %}
 
 With postdoctoral experience at the University of Kansas and UC Berkeley, Dr. Heath developed expertise in analyzing species-level biodiversity data. Her current research focuses on macroevolution and patterns of biodiversity, blending computation and biology.
 
@@ -22,24 +22,25 @@ In addition to her research, Dr. Heath reflects on her role as a woman of Filipi
 
 Dr. Tracy Heath's passion, dedication, and commitment to diversity make her a role model in the scientific community, leaving a lasting impact in her field.
 
-## Professor Heath's Profile
+{:.pt-3}
+#### Professor Heath's Profile
 
 Meet Professor Dr. Tracy A Heath, a passionate researcher dedicated to unraveling the mysteries of biodiversity and evolution. Their expertise lies in developing and applying advanced computational methods, particularly in Bayesian inference, to explore evolutionary processes within a phylogenetic context. As a key developer of RevBayes, a powerful software for Bayesian inference, they pave the way for groundbreaking discoveries in the realm of evolutionary biology.
+{:.pb-2}
 
-{% include feature/image.html objectid="/assets/img/drHeath.jpg" alt="Interview with Professor Tracy Heath" caption="Dr. Tracy Heath" link="http://127.0.0.1:4000/transcripts/heath_tracy.html" width="50" %}
+{% include feature/image-float.html objectid="/assets/img/drHeath.jpg" alt="Interview with Professor Tracy Heath" caption="Dr. Tracy Heath" link="/stem-journey-isu/transcripts/heath_tracy.html" width="25" float="start" %}
 
+#### Education
 
-## Education
-
-B.A., Biology, Boston University, 2000
-
-Ph.D., Ecology, Evolution, and Behavior, University of Texas at Austin, 2008
+- Ph.D. Ecology, Evolution, and Behavior, University of Texas at Austin, 2008
+- B.A. Biology, Boston University, 2000
 
 {% include feature/button.html text="Dr. Heath's website" link="https://phyloworks.org/" color="danger" %}
 
+<div class="clearfix"></div>
 
-
-## Publications
+{:.pt-3}
+#### Publications
 
 Justison, Solis-Lemus, Heath. 2023. SiPhyNetwork: An R package for simulating phylogenetic networks. Methods in Ecology and Evolution, in press.
 
@@ -51,4 +52,4 @@ Dismukes, Braga, Hembry, Heath, Landis. 2022. Cophylogenetic methods to untangle
 
 Barido-Sottani, Żyła, Heath. 2022. Estimating the age of poorly dated fossil specimens and deposits using a total-evidence approach and the fossilized birth-death process. Systematic Biology, in press.
 
-For futher research work, check out Professor Heath's website: [https://phyloworks.org/](HeathLab @ ISU)
+For futher research work, check out Professor Heath's website: [HeathLab @ ISU](https://phyloworks.org/)
