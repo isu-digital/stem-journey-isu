@@ -10,8 +10,7 @@ permalink: /
 {:.pt-4}
 ### Introduction:
 
-The ISU Faculty Landscape: Exploring Intersectionality
-Introduction: Promoting gender equity within academia is an ongoing journey, and Iowa State University (ISU) is committed to creating an inclusive and diverse faculty community. While progress has been made, there remain opportunities to further enhance the representation of women faculty members, particularly in STEM fields. Additionally, exploring the intersectionality of gender and ethnicity, such as being Asian, adds valuable dimensions to the ongoing efforts towards fostering a truly inclusive academic environment.
+Promoting gender equity within academia is an ongoing journey, and Iowa State University (ISU) is committed to creating an inclusive and diverse faculty community. While progress has been made, there remain opportunities to further enhance the representation of women faculty members, particularly in STEM fields. Additionally, exploring the intersectionality of gender and ethnicity, such as being Asian, adds valuable dimensions to the ongoing efforts towards fostering a truly inclusive academic environment.
 
 {% include feature/image.html objectid="/assets/img/isu-campus.jpg" alt="image of tower on Iowa State University campus lawn" caption="Iowa State University" width="50" %}
 
