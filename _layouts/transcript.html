@@ -25,7 +25,7 @@ endcapture -%}
 
       <h2 class="my-2 title">
         {{ page.title}}
-        {% if page.content %} <a type="button" class="btn btn-sm btn-outline-dark meta" data-bs-toggle="modal" data-bs-target="#bio-modal">Click for bio</a>{% endif %}
+        {% if page.content %} <!--<a type="button" class="btn btn-sm btn-outline-dark meta" data-bs-toggle="modal" data-bs-target="#bio-modal">Click for bio</a>--><a type="button" class="btn btn-sm btn-outline-dark meta" href="{{ page.object-id | prepend: '/profiles/' | append: '.html' | relative_url }}">Click for bio</a>{% endif %}
       </h2>
 
       {% if page.content %}
