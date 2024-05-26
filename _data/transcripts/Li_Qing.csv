@@ -1,14 +1,14 @@
 timestamp,speaker,words,tags
 [00:00:00],Mansi," Um, hello and thank you again for joining",
 [00:00:02],Professor Li," me here. Yes,",
-[00:00:02],Mansi,"Um, I want, um, just to begin with, if you can tell us about your background and, uh, how did you end",
-[00:00:10],Professor Li," up in this field? Sure, sure. Uh, for background, do you mean educational background? Yes. Okay. Sure, sure. Um, I did my undergraduate studies in electrical engineering, um, back in China.",Education
+[00:00:02],Mansi,"Um, I want, um, just to begin with, if you can tell us about your background and, uh, how did you end up in this field?",
+[00:00:10],Professor Li," Sure, sure. Uh, for background, do you mean educational background? Yes. Okay. Sure, sure. Um, I did my undergraduate studies in electrical engineering, um, back in China.",Education
 [00:00:24],Professor Li," Um, then I went to University of Rochester, uh, for my master's degree, also in electrical engineering. And, uh, after I graduated I switched to stats PhD, uh, in Virginia Tech. And, uh, after that I. I worked as a visiting assistant professor, uh, in the Department of the state from University of Wisconsin Medicine.",Education
 [00:00:49],Professor Li," And finally I came to ISU yeah. To work, um, in the industrial engineering department. Mm-hmm.",Education
 [00:00:56],Mansi," Okay. Uh, and you have been at I S U from, um, how many years now?",
 [00:01:01],Professor Li," Uh, 2018. So since 2018 now. Uh, five years. Okay.",
 [00:01:06],Mansi," Yeah. Yeah, that sounds good. Um, so in terms of you being, so you are currently in the Department of Industrial Engineering, you said, right?",
-[00:01:15],Mansi," Yeah. So what kind of motivated you to be in this field, or even like choosing your bachelor's degree, what made you think, what was the motivation behind it? Hmm.",
+[00:01:15],Mansi," Yeah. So what kind of motivated you to be in this field, or even like choosing your bachelor's degree, what made you think, what was the motivation behind it? Hmm.",Motivations
 [00:01:29],Professor Li," Yeah, it's mainly, uh, back in China, well, um, I would see like, like my parents, uh, consulted, uh, several people. And this thing, uh, electrical engineering is very promising.",Motivations
 [00:01:43],Professor Li,Good to find a job. Okay. Yeah. It's mainly from that aspect. So I choose electrical engineering.,Motivations
 [00:01:52],Mansi," Okay. Okay. No. Yeah, that's probably a lot of us who end up in a field, which is like, okay, my parents,",
@@ -56,20 +56,20 @@ timestamp,speaker,words,tags
 [00:15:10],Mansi," Um, if you want to, uh, glance it over",
 [00:15:13],Professor Li," that? Well, by applications do you mean what kind of fields this research can be used? So the",
 [00:15:21],Mansi," application, so for example, for data, I think we use R",
-[00:15:26],Professor Li," Oh, you mean software? Yeah, software. I'm so sorry. Oh, oh, I see, I see. I think in academia, uh, like especially instead, people like to use r.",
-[00:15:36],Professor Li," Um, but I think, uh, now more and more people use Python. Mm. Because it's very powerful in, uh, doing deep learning, machine learning type of things. And in industry, I think a lot of people use Python and some people may also use Met Lab. Um, okay. Yes. I think this are the main software, uh, people used.",
+[00:15:26],Professor Li," Oh, you mean software? Yeah, software. I'm so sorry. Oh, oh, I see, I see. I think in academia, uh, like especially instead, people like to use r.",Technology
+[00:15:36],Professor Li," Um, but I think, uh, now more and more people use Python. Mm. Because it's very powerful in, uh, doing deep learning, machine learning type of things. And in industry, I think a lot of people use Python and some people may also use Met Lab. Um, okay. Yes. I think this are the main software, uh, people used.",Technology
 [00:15:59],Mansi,Okay.,
 [00:15:59],Mansi," Thank you. Um, okay, so moving on to a kind of a different, uh, topic. So this is more about what do you think, um, mentorship and networking has played a role in your career so far? Mm-hmm. So how important was mentorship and networking for you so far?",
-[00:16:18],Professor Li," Oh yeah, of course. Um, yeah, mentorship, definitely. I think it's, it's crucial.",Technology
-[00:16:24],Professor Li," Um, I, I just remember for example, my advisor. He is very, uh, encouraging and very supportive. And I, uh, and also another professor when I was a graduate student, like she was so encouraging. Yeah, I remember, um, like one of my paper was rejected, uh, five times. I. Um, yeah, it's, it's very frustrating. Um, like sometimes without that encourage",Technology
-[00:16:56],Professor Li," Yeah. But it, yeah, encouraging you, um, give you advice, et cetera. So I feel, oh, it's not that bad. Maybe, uh, I can move on. Yeah. So, And, um, like the, the, like mentors, they, um, they guided me considering like how to do research, how to write, how to collaborate, uh, how to do a lot of things like how to, uh, manage that, uh, work-life bala",Technology
-[00:17:25],Professor Li," Yeah. Yeah. I, I would say mentorship definitely is crucial. Okay.",Technology
+[00:16:18],Professor Li," Oh yeah, of course. Um, yeah, mentorship, definitely. I think it's, it's crucial.", Mentorship
+[00:16:24],Professor Li," Um, I, I just remember for example, my advisor. He is very, uh, encouraging and very supportive. And I, uh, and also another professor when I was a graduate student, like she was so encouraging. Yeah, I remember, um, like one of my paper was rejected, uh, five times. I. Um, yeah, it's, it's very frustrating. Um, like sometimes without that encourage",Mentorship; Technology
+[00:16:56],Professor Li," Yeah. But it, yeah, encouraging you, um, give you advice, et cetera. So I feel, oh, it's not that bad. Maybe, uh, I can move on. Yeah. So, And, um, like the, the, like mentors, they, um, they guided me considering like how to do research, how to write, how to collaborate, uh, how to do a lot of things like how to, uh, manage that, uh, work-life bala",Mentorship;Technology
+[00:17:25],Professor Li," Yeah. Yeah. I, I would say mentorship definitely is crucial. Okay.",Mentorship
 [00:17:30],Mansi," Uh, and then, um, How did you manage, uh, making sure that you have a good network with your colleagues or outside world while you, because I feel like when graduate students go into research work or academia, it gets very overloaded with like your research work.",
 [00:17:48],Mansi," So how did you make, uh, those, those transitions?",
-[00:17:52],Professor Li," Hmm. Yes. I would say in general, like I'm a people person, so I like to be with people. Um, I like to communicate with people. I, I guess that's for personality. Like I can understand just working on my own. Okay. So I need to talk with people like maybe so, and also because of the, uh, nature of my field, like statistics.",Network
-[00:18:15],Professor Li," Right. You have to, uh, You have to collaborate with people from other fields to come up with problems to solve and, uh, how to, uh, uh, interpret it. Right? A lot of things like I just cannot do it on my own. And also, where can I get the data? How to formulate, uh, Formula a problem, et cetera. So like I, I guess I have to Okay.",Network
-[00:18:42],Professor Li," Collaborate with people. And then I u is, especially, I'm not sure the other department, but a college of engineering, um, is a very, uh, collaborative environment like our department. Right. So the in general, uh, encourage you to collaborate with other people, like communicate your research. Yeah. There are a lot of.",Network
-[00:19:03],Professor Li," Opportunities and the events, seminars, right. For you to, uh, and also conferences. So as long as you keep attending those and, uh, actively Right. Uh, do things. Yeah. Can other people will drag you into the network? I mean, work. Yeah.",Network
+[00:17:52],Professor Li," Hmm. Yes. I would say in general, like I'm a people person, so I like to be with people. Um, I like to communicate with people. I, I guess that's for personality. Like I can understand just working on my own. Okay. So I need to talk with people like maybe so, and also because of the, uh, nature of my field, like statistics.",Networking
+[00:18:15],Professor Li," Right. You have to, uh, You have to collaborate with people from other fields to come up with problems to solve and, uh, how to, uh, uh, interpret it. Right? A lot of things like I just cannot do it on my own. And also, where can I get the data? How to formulate, uh, Formula a problem, et cetera. So like I, I guess I have to Okay.",Networking
+[00:18:42],Professor Li," Collaborate with people. And then I u is, especially, I'm not sure the other department, but a college of engineering, um, is a very, uh, collaborative environment like our department. Right. So the in general, uh, encourage you to collaborate with other people, like communicate your research. Yeah. There are a lot of.",Networking
+[00:19:03],Professor Li," Opportunities and the events, seminars, right. For you to, uh, and also conferences. So as long as you keep attending those and, uh, actively Right. Uh, do things. Yeah. Can other people will drag you into the network? I mean, work. Yeah.",Networking
 [00:19:24],Mansi," Yeah. Okay. Uh, well, yes. Yeah. Thank you so much for sharing that. No. In terms of, you just mentioned about how your department is more collaborative.",
 [00:19:35],Mansi," Yeah. And so moving towards that, more of your experience at I S U last five years. Mm-hmm. Yes. Um, how do you perceive the progress, which, uh, took place in last five years, if you think there was a progress in, in terms of diversity inclusion? Mm-hmm. In terms of students. In terms of faculty. Mm-hmm. Do you see a progressiveness there?",
 [00:19:55],Mansi," Progress there? If, um, and if there was, uh, if you have a power to change something, if, if you would like to share, what will be that? Um, well",
@@ -85,8 +85,7 @@ timestamp,speaker,words,tags
 [00:22:13],Professor Li," I mean, when I was a student, I thought, oh, it was so hard. I cannot make it. Yeah. I, I never doubt thought about it, and then, yeah, somehow",Career Advice
 [00:22:24],Mansi,you just didn't give up the entire time.,
 [00:22:27],Professor Li," Yeah. Yeah. I would see, so yeah. Perseverance. Yep. Yep. Mm-hmm.",Career Advice
-[00:22:33],Mansi," Yeah, for sure. Well, thank you so much for that. Um mm-hmm. Sweet. Um, kind of.",
-[00:22:39],Mansi," Uh, advice for the students, upcoming students that never give up. Mm-hmm. Uh, even though how hard the situations get. And thank you so much for your time for this interview, for taking the initiative to Oh, my pleasure. Your time to this project, Uhhuh, and I hope this was fun for you too, to kind of talk Oh, yeah.",
+[00:22:33],Mansi," Yeah, for sure. Well, thank you so much for that. Um mm-hmm. Sweet. Um, kind of advice for the students, upcoming students that never give up. Mm-hmm. Uh, even though how hard the situations get. And thank you so much for your time for this interview, for taking the initiative to Oh, my pleasure. Your time to this project, Uhhuh, and I hope this was fun for you too, to kind of talk Oh, yeah.",
 [00:22:58],Mansi," Yes. Experience and, um, hopefully students and whoever watches it kind of get inspiration from all. Sure. Sure. Which again, Dr. Li, um, I really appreciate",
 [00:23:11],Professor Li," your time. Mm-hmm. My pleasure. Yeah. I hope your research goes well. Yeah. I hope you Yeah. You can gain insights from your research that will be helpful, uh, to the community.",Career Advice
 [00:23:22],Professor Li,Yeah.,
