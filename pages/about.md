@@ -28,6 +28,7 @@ I’m Mansi Patel, an Information Systems enthusiast with fascination for data a
 
 {% include feature/image-float.html objectid="/stem-journey-isu/assets/img/Mansiheadshot.jpg" caption="Mansi Patel" float="start" width="25" %}
 
+
 My journey led me to Iowa State University, where I’ve been fortunate to assume the role of a Graduate Assistant. Guiding first-year students and providing academic support has allowed me to witness the power of mentorship. Beyond the academic realm, I’ve embarked on a remarkable research project that dives into the journeys of Asian women in STEM fields. Through interviews, conversations, and analysis, I’ve had the privilege of unraveling their stories of resilience, accomplishments, and contributions to academia.
 
 I hope that this digital platform has succeeded in its goal of amplifying the narratives of Asian women in STEM, effectively sharing their contributions and journeys as originally envisioned when this project began.
