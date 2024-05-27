@@ -42,14 +42,15 @@ Meet Professor Dr. Tracy A Heath, a passionate researcher dedicated to unravelin
 {:.pt-3}
 #### Publications
 
-Justison, Solis-Lemus, Heath. 2023. SiPhyNetwork: An R package for simulating phylogenetic networks. Methods in Ecology and Evolution, in press.
+Justison, Solis-Lemus, Heath. 2023. SiPhyNetwork: An R package for simulating phylogenetic networks. Methods in Ecology and Evolution, in press. https://besjournals.onlinelibrary.wiley.com/doi/10.1111/2041-210X.14116
 
-Ksepka, Field, Heath, Pett, Thomas, Giovanardi, Tennyson. 2023. Largest-known fossil penguin provides insight into the early evolution of sphenisciform body size and flipper anatomy. Journal of Paleontology, 97:434-453. [See feature in The New York Times: The Biggest Penguin That Ever Existed Was a ‘Monster Bird’]
+Ksepka, Field, Heath, Pett, Thomas, Giovanardi, Tennyson. 2023. Largest-known fossil penguin provides insight into the early evolution of sphenisciform body size and flipper anatomy. Journal of Paleontology, 97:434-453. [See feature in The New York Times: The Biggest Penguin That Ever Existed Was a ‘Monster Bird’] https://www.nytimes.com/2023/02/08/science/giant-penguin-fossil.html
 
-Satler, Herre, Heath, Machado, Gómez Zúñiga, Jandér, Eaton, Nason. 2023. Pollinator and host sharing lead to hybridization and introgression in Panamanian free-standing figs, but not in their pollinator wasps. Ecology & Evolution, 13:e9673.
+Satler, Herre, Heath, Machado, Gómez Zúñiga, Jandér, Eaton, Nason. 2023. Pollinator and host sharing lead to hybridization and introgression in Panamanian free-standing figs, but not in their pollinator wasps. Ecology & Evolution, 13:e9673. https://onlinelibrary.wiley.com/doi/10.1002/ece3.9673
 
-Dismukes, Braga, Hembry, Heath, Landis. 2022. Cophylogenetic methods to untangle the evolutionary history of ecological interactions. Annual Reviews in Ecology, Evolution, and Systematics, 53:275-298.
+Dismukes, Braga, Hembry, Heath, Landis. 2022. Cophylogenetic methods to untangle the evolutionary history of ecological interactions. Annual Reviews in Ecology, Evolution, and Systematics, 53:275-298. https://doi.org/10.1146/annurev-ecolsys-102320-112823
 
-Barido-Sottani, Żyła, Heath. 2022. Estimating the age of poorly dated fossil specimens and deposits using a total-evidence approach and the fossilized birth-death process. Systematic Biology, in press.
+Barido-Sottani, Żyła, Heath. 2022. Estimating the age of poorly dated fossil specimens and deposits using a total-evidence approach and the fossilized birth-death process. Systematic Biology, in press. https://doi.org/10.1093/sysbio/syac073
+
 
 For futher research work, check out Professor Heath's website: [HeathLab @ ISU](https://phyloworks.org/)

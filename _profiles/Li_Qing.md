@@ -44,12 +44,12 @@ Professor Li, an accomplished academic in the field of electrical engineering an
 {:.pt-3}
 #### Publications
 
-Fringe projection profilometry by conducting deep learning from its digital twinY Zheng, S Wang, Q Li, B LiOptics Express 28 (24), 36568-36583	62	2020
+Safaei, N., Seyedekrami, S., Talafidaryani, M., Masoud, A., Wang, S. D., Moqri, M., Li, Q., and Zhang, W. L. (2022). E-CatBoost: An efficient machine learning framework for predicting ICU mortality using the eICU Collaborative Research Database, https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0262895, PLOS ONE, 17(5): e0262895.
 
-Multistate travel time reliability models with skewed component distributionsF Guo, Q Li, H RakhaTransportation Research Record 2315 (1), 47-53	55	2012
+Li, Q.*, Liu, L. J., Li, T. Q., and Yao, K. H. (2021). Bayesian change-points detection assuming power-law process in the recurrent-event context, Communications in Statistics Part B: Simulation and Computation, https://www.tandfonline.com/doi/full/10.1080/03610918.2021.2006711. 1–23
 
-Monitoring the Long-Distance Transport of Fusarium graminearum from Field-Scale Sources of InoculumAJ Prussin, Q Li, R Malla, SD Ross, DG Schmale IIIPlant Disease 98 (4), 504-511	51	2014
+Jiang, Y. Q., Wang, S. D., Qin, H. T., Li, B. W., and Li, Q.*. Similarity quantification of 3D surface topography measurements via Fourier transform, Measurement,110207. https://www.sciencedirect.com/science/article/abs/pii/S0263224121011179?via%3Dihub
 
-Correlation approach for quality assurance of additive manufactured parts based on optical metrologyX Zhang, Y Zheng, V Suresh, S Wang, Q Li, B Li, H QinJournal of Manufacturing Processes 53, 310-317	31	2020
+Wang, S.D., Zhang, X., Zheng, Y., Li, B.W., Qin, H.T., and Li, Q.* (2019). Similarity evaluation of 3D surface topography measurements, Measurement Science and Technology, 32:125003. https://iopscience.iop.org/article/10.1088/1361-6501/ac1b41
 
-Similarity evaluation of topography measurement results by different optical metrology technologies for additive manufactured partsY Zheng, X Zhang, S Wang, Q Li, H Qin, B LiOptics and Lasers in Engineering 126, 105920
+Jiang, Y. Q., Li, Q.*, Trevisan, G, Linhares, D., and MacKenzie, C. (2021). Investigating the relationship of porcine reproductive and respiratory syndrome virus RNA detection between adult/sow farm and wean-to-market age categories, PLOS ONE, 16:e0253429.  https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0253429

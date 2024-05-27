@@ -38,4 +38,16 @@ Professor Jing Wang's story serves as an inspiration for aspiring researchers, h
 
 {% include feature/button.html text="Dr. Wang's research website" link="https://sites.google.com/site/jingwangwebsite" color="danger" %}
 
+###Publications
+
+Wang J, Ocdiz-Ruiz R, Hall M, Bushnell, G, Orbach S, Decker J, Raghani R, Zhang Y, Morris A, Jeruss J*, Shea L*. A synthetic metastatic niche reveals antitumor neutrophils drive breast cancer metastatic dormancy in the lungs. Nature Communications, 2023, 14, 4790. https://www.nature.com/articles/s41467-023-40478-5#Sec59
+
+Wang J, Youngblood R, Cassinotti L, Skoumal M, Corfas G*, Shea L*. An injectable PEG hydrogel controlling neurotrophin-3 release by affinity peptides. Journal of Controlled Release, 2021, 330, 575-586. https://pubmed.ncbi.nlm.nih.gov/33378693/
+
+Wang J, Min J, Ali Eghtesadi S, Kane R, Chilkoti A*. Quantitative study of the interaction of multivalent ligand-modified nanoparticles with breast cancer cells with tunable receptor density. ACS Nano, 2020, 14, 372-383.https://pubmed.ncbi.nlm.nih.gov/31899613/
+
+Wang J, Saha S, Schaal JL, Yousefpour P, Li X, Chilkoti A*. Heuristics for the optimal presentation of bioactive peptides on polypeptide micelles. Nano Letters, 2020, 19, 7911-7987. https://pubmed.ncbi.nlm.nih.gov/31642326/
+
+Wang J, Dzuricky M, Chilkoti A*. The weak link: optimization of ligand-nanoparticle interface to enhance cancer cell targeting by hydrophobic peptide-decorated polymer micelles. Nano Letters, 2017, 17, 5995-6005.https://pubmed.ncbi.nlm.nih.gov/28853896/
+
 <div class="clearfix"></div>
