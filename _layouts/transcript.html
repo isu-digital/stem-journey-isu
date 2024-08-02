@@ -16,7 +16,7 @@ endcapture -%}
 {% if page.av_source %}{% assign av = page.av_source | downcase %}{% endif %}
 <div class="container">
 
-  {% include breadcrumbs.html omit_date=true %}
+  {% include breadcrumbs.html %}
   
   <div id="full_container" class="p-3 p-md-5 justify-content-center m-auto" >
     
@@ -28,9 +28,11 @@ endcapture -%}
         {% if page.content %} <!--<a type="button" class="btn btn-sm btn-outline-dark meta" data-bs-toggle="modal" data-bs-target="#bio-modal">Click for bio</a>--><a type="button" class="btn btn-sm btn-outline-dark meta" href="{{ page.object-id | prepend: '/profiles/' | append: '.html' | relative_url }}">Click for bio</a>{% endif %}
       </h2>
 
+      {% comment %}
       {% if page.content %}
         {% include feature/bio-modal.html %}
       {% endif %}
+      {% endcomment %}
 
       <p class="meta">
         {% if page.location %}
@@ -160,32 +162,33 @@ endcapture -%}
   </div><!--close full_container-->
 
   <!--prev next links-->
-  <div class="post-nav">
-    <div>
-      {% if page.previous.url %}
-        <a href="/stem-journey-isu{{ page.previous.url }}.html">
-          <span class="unsighted">Previous post:</span>
-          <span aria-hidden="true">&laquo;</span>
-          {{ page.previous.title }}
-        </a>
-      {% endif %}
-    </div>
-    <div class="post-nav-next">
-      {% if page.next.url %}
-      {% assign next_post_title_array = page.next.title | split: " " %}
-      {% assign next_post_cape_length = next_post_title_array | size | minus: 1 %}
-      {% assign next_post_cape = page.next.title | truncatewords: next_post_cape_length, "" %}
-      {% assign next_post_spit = next_post_title_array | last %}
-      <a href="/stem-journey-isu{{ page.next.url }}.html">
-        <span class="unsighted">Next post:</span>
-        {{ next_post_cape }}
-        <span style="white-space: nowrap;">
-        {{ next_post_spit }}
-        <span aria-hidden="true">&raquo;</span>
-        </span>
-      </a>
-      {% endif %}
-    </div>
-  </div><!--close prev next links-->
+
+  {% include browse-buttons.html %}
 
 </div><!--close main container-->
+
+<script>
+  function adjustScrollPosition() {
+    // Check if there's a hash in the URL
+    if (window.location.hash) {
+      console.log("Hash found:", window.location.hash); // Debugging log
+      // Get the element by ID
+      var element = document.querySelector(window.location.hash);
+      if (element) {
+        console.log("Element found:", element); // Debugging log
+        // Adjust the scroll position
+        window.scrollTo({
+          top: element.offsetTop - 200, // Adjust the offset as needed
+          behavior: 'smooth'
+        });
+      } else {
+        console.error("Element not found for hash:", window.location.hash); // Error log
+      }
+    } else {
+      console.log("No hash in the URL"); // Debugging log
+    }
+  }
+
+  window.addEventListener("load", adjustScrollPosition);
+  window.addEventListener("hashchange", adjustScrollPosition);
+</script>
