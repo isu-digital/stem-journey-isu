@@ -245,6 +245,11 @@ window.addEventListener('scroll', function() {
   var footer = document.querySelector('.footer');
   var fixedElement = document.querySelector('.iframe-wrapper');
 
+    // Ensure both elements exist before proceeding
+    if (!footer || !fixedElement) {
+      return;
+    }
+
   // don't implement until 4000px scrolled to prevent interference with video at the top of the page
   if (window.pageYOffset >= 4000) {
       // get the top of the footer relative to the viewport

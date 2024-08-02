@@ -1,6 +1,6 @@
 <script>
-    const url = new URL(window.location);
-    const params = url.searchParams;
+    const vizUrl = new URL(window.location);
+    const vizParams = vizUrl.searchParams;
 
 function codeFilter(x) {
       $("rect").removeClass (function (index, className) {
@@ -21,9 +21,9 @@ return (className.match (/(^|\s)primary-\S+/g) || []).join(' ');
       $("tr").not('.hidden').find('a[tabindex="-1"]').attr('tabindex', 0);
       $("rect").not('.black').closest('section.vizdiv').removeClass("hidden").attr('aria-hidden','false');
       //Add another parameter. 
-      params.set('filter', x);
-      console.log(params.toString());
-      var p = params.toString();
+      vizParams.set('filter', x);
+      console.log(vizParams.toString());
+      var p = vizParams.toString();
       window.history.replaceState({}, '', location.pathname + '?' + p);
   }
 
@@ -44,9 +44,9 @@ return (className.match (/(^|\s)primary-\S+/g) || []).join(' ');
       $("svg.chart").not('.' + x).toggleClass("hidden").removeAttr("aria-hidden");
       $("h3").not('.' + x).toggleClass("hidden").removeAttr("aria-hidden");
       //Add another parameter. 
-      params.set('id', x);
-      console.log(params.toString());
-      var p = params.toString();
+      vizParams.set('id', x);
+      console.log(vizParams.toString());
+      var p = vizParams.toString();
       window.history.replaceState({}, '', location.pathname + '?' + p);
   }
 
@@ -69,16 +69,16 @@ return (className.match (/(^|\s)primary-\S+/g) || []).join(' ');
       $("h3").removeClass("hidden").removeAttr("aria-hidden");
       $("div").removeClass("hidden").removeAttr("aria-hidden");
       $("section").removeClass("hidden").removeAttr("aria-hidden");
-      params.set('id', '');
-      params.set('filter', '');
+      vizParams.set('id', '');
+      vizParams.set('filter', '');
       window.history.replaceState({}, '', location.pathname);
   });
 
   $(document).ready(function () {
-  let url = new URL(window.location);
-  let params = url.searchParams;
-  var itemfilter = url.searchParams.get('id');
-  var datafilter = url.searchParams.get('filter');
+  let filterUrl = new URL(window.location);
+  let params = filterUrl.searchParams;
+  var itemfilter = filterUrl.searchParams.get('id');
+  var datafilter = filterUrl.searchParams.get('filter');
   if (datafilter) {
       codeFilter(datafilter);
   }
