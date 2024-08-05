@@ -58,8 +58,8 @@ return (className.match (/(^|\s)primary-\S+/g) || []).join(' ');
       var intFilter = $(this).attr("data-id");
       interviewFilter(intFilter);
   });
-  $("#reset").click(function () {
-      $("rect").removeClass("black");
+  function resetVisualization() {
+    $("rect").removeClass("black");
       $('a[tabindex="0"]').filter(function() {return $(this).find('rect').length > 0;}).attr('tabindex', -1);
       $('svg[aria-pressed="true"]').attr('aria-pressed','false');
       $("circle").removeClass("black");
@@ -72,8 +72,15 @@ return (className.match (/(^|\s)primary-\S+/g) || []).join(' ');
       vizParams.set('id', '');
       vizParams.set('filter', '');
       window.history.replaceState({}, '', location.pathname);
-  });
+  }
+  $(document).ready(function() {
+    resetVisualization();
 
+    $("#reset").click(function () {
+      resetVisualization();
+    });
+  });
+  
   $(document).ready(function () {
   let filterUrl = new URL(window.location);
   let params = filterUrl.searchParams;
