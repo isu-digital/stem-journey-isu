@@ -18,14 +18,14 @@ endcapture -%}
 
   {% include breadcrumbs.html %}
   
-  <div id="full_container" class="p-3 p-md-5 justify-content-center m-auto" >
+  <div id="full_container" class="p-3 px-md-5 pb-md-5 pt-md-2 justify-content-center m-auto" >
     
     <!--title, bio modal, av player, and visualization-->
     <div id="object-meta">
 
       <h2 class="my-2 title">
         {{ page.title}}
-        {% if page.content %} <!--<a type="button" class="btn btn-sm btn-outline-dark meta" data-bs-toggle="modal" data-bs-target="#bio-modal">Click for bio</a>--><a type="button" class="btn btn-sm btn-outline-dark meta" href="{{ page.object-id | prepend: '/profiles/' | append: '.html' | relative_url }}">Click for bio</a>{% endif %}
+        {% if page.content %} <!--<a type="button" class="btn btn-sm btn-outline-dark meta" data-bs-toggle="modal" data-bs-target="#bio-modal">Click for bio</a>--><a type="button" class="btn btn-sm btn-outline-dark meta" href="{{ page.object-id | prepend: '/profiles/' | append: '.html' | relative_url }}">Read bio</a>{% endif %}
       </h2>
 
       {% comment %}
