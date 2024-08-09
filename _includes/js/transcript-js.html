@@ -141,12 +141,18 @@
     }
   }
 
+  var lineParam = url.searchParams.get('line');
+  if (lineParam) {
+    scrollToLine(lineParam);
+  }
+
   function scrollToLine(x) {
     var targetElement = document.getElementById(x);
     if (targetElement) {
-        if (!targetElement.classList.contains("featured")) {
+        /*if (!targetElement.classList.contains("featured")) {
             targetElement.classList.add("border-featured");
-        }
+        }*/
+        targetElement.classList.add('featured');
 
         // Smoothly scroll to the element
         setTimeout(() => { // use setTimeout to ensure the scrolling accounts for newly added classes/styles
@@ -226,12 +232,18 @@
       params.delete('q');
       params.delete('filter');
       var targetElement = document.getElementById(lineFilter);
+      console.log(targetElement);
       if (targetElement) {
+        /*if (!targetElement.classList.contains("featured")) {
+            targetElement.classList.add("border-featured");
+        }*/
         targetElement.classList.add('featured');
         // Smoothly scroll to the element
+        const startPosition = targetElement.getBoundingClientRect().top + window.pageYOffset - 200;
+        console.log(startPosition);
         targetElement.scrollIntoView({
+          top: startPosition,
           behavior: 'smooth',  // Enables smooth scrolling
-          block: 'start'       // Aligns to the top of the viewport
         });
       }
     }
@@ -239,7 +251,8 @@
 
     };
   })();
-  
+
+
 // change iframe position increase px from bottom when the footer approaches
 window.addEventListener('scroll', function() {
   var footer = document.querySelector('.footer');

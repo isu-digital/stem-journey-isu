@@ -166,29 +166,3 @@ endcapture -%}
   {% include browse-buttons.html %}
 
 </div><!--close main container-->
-
-<script>
-  function adjustScrollPosition() {
-    // Check if there's a hash in the URL
-    if (window.location.hash) {
-      console.log("Hash found:", window.location.hash); // Debugging log
-      // Get the element by ID
-      var element = document.querySelector(window.location.hash);
-      if (element) {
-        console.log("Element found:", element); // Debugging log
-        // Adjust the scroll position
-        window.scrollTo({
-          top: element.offsetTop - 200, // Adjust the offset as needed
-          behavior: 'smooth'
-        });
-      } else {
-        console.error("Element not found for hash:", window.location.hash); // Error log
-      }
-    } else {
-      console.log("No hash in the URL"); // Debugging log
-    }
-  }
-
-  window.addEventListener("load", adjustScrollPosition);
-  window.addEventListener("hashchange", adjustScrollPosition);
-</script>
