@@ -75,10 +75,10 @@ endcapture -%}
     <!--transcript filter, search, words and timestamps-->
     <div id="filters-content" class="pe-md-5">
       <!--filter, search, and reset-->
-      <div class="row my-4 sticky-top bg-white border-bottom border-start border-end pb-3 w-md-75" id="filters-search"  style="z-index: 0;">
+      <div class="row my-4 sticky-top bg-white border-bottom pb-3 w-md-75" id="filters-search"  style="z-index: 0;">
         <!--filter by topic dropdown-->
-        <div class="col-6 col-md-4">
-          <select id="filters" title="Filter by Topic" aria-label="Topic filtering dropdown select option" class="filters py-2 form-select border border-primary" onchange="filterLines(this.value)">
+        <div class="col-md-6">
+          <select id="filters" title="Filter by Topic" aria-label="Topic filtering dropdown select option" class="filters py-2 form-select border border-primary my-2" onchange="filterLines(this.value)">
             <option value="#" class="reset" selected="selected reset">Filter by Topic</option>
             {% assign filters = site.data.filters %}
             {% for filter in filters %}
@@ -94,21 +94,21 @@ endcapture -%}
         </div>
 
         <!--transcript search-->
-        <div class="col-6 col-md-6">
+        <div class="col-md-6">
           <div id="transcriptsearch">
-            <div class="row">
+            <div class="row mx-4">
               <div class="col-md-6">
                 <div class="input-group fs-5 mt-md-0">
-                  <input type="text" class="form-control border border-primary" placeholder="Search..." aria-label="Search"
+                  <input type="text" class="form-control border border-primary my-2" placeholder="Search..." aria-label="Search"
                     aria-describedby="goButton" id="quicksearch">
-                  <div class="input-group-append">
+                  <div class="input-group-append my-2">
                     <button class="btn btn-primary rounded-right border border-primary" type="submit"
                       title="Search" alt="Search" id="goButton" onclick="var searchval = document.getElementById('quicksearch').value; searchLines(searchval);">Go</button>
                   </div>
                 </div>
               </div>
               <div class="col-md-6">
-                <button id="resetButton" class="reset btn btn-secondary input-group-text">Reset Filters</button>
+                <button id="resetButton" class="reset btn btn-secondary input-group-text ms-4 my-2">Reset Filters</button>
               </div>
             </div>
           </div>
