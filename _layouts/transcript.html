@@ -14,6 +14,7 @@ endcapture -%}
 {%- assign uniqueSubjects = subjects | uniq | sort -%}
 {%endif%}
 {% if page.av_source %}{% assign av = page.av_source | downcase %}{% endif %}
+
 <div class="container">
 
   {% include breadcrumbs.html %}
@@ -107,7 +108,7 @@ endcapture -%}
                 </div>
               </div>
               <div class="col-md-6">
-                <button class="reset btn btn-secondary input-group-text" onclick="vizFilter('all');">Reset Filters</button>
+                <button id="resetButton" class="reset btn btn-secondary input-group-text">Reset Filters</button>
               </div>
             </div>
           </div>

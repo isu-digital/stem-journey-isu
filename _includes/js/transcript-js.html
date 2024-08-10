@@ -2,32 +2,43 @@
   let url = new URL(window.location);
   let params = url.searchParams;
 
-  function vizFilter(x) {
+  
+  document.getElementById('resetButton').onclick = function() {
     var rects = document.getElementsByTagName('rect');
-    if (x != "hilite") {
-      params.set('filter', x);
-      var p = params.toString();
-      window.history.replaceState({}, '', location.pathname + '?' + p);
-      document.getElementById('filters').value = x;
-
-    }
     for (i = 0; i < rects.length; i++) {
       var classString = rects[i].classList;
-      classString.add('dark');
-      classString.forEach(item => {
-        if (item.startsWith('primary')) {
-          classString.remove(item);
-        }
-      });
-      if (x == "all") {
-        classString.remove('dark');
-        resetVals();
-      } else if (classString.contains(x)) {
-        classString.remove('dark');
-        classString.add("primary-" + x);
-      } else if (x == "darkforall") { }
+      classString.remove('dark');
+      resetVals();
     }
+    console.log('reset button clicked');
   }
+  
+    function vizFilter(x) {
+      var rects = document.getElementsByTagName('rect');
+      if (x != "hilite") {
+        params.set('filter', x);
+        var p = params.toString();
+        window.history.replaceState({}, '', location.pathname + '?' + p);
+        document.getElementById('filters').value = x;
+
+      }
+      for (i = 0; i < rects.length; i++) {
+        var classString = rects[i].classList;
+        classString.add('dark');
+        classString.forEach(item => {
+          if (item.startsWith('primary')) {
+            classString.remove(item);
+          }
+        });
+        if (x == "all") {
+          classString.remove('dark');
+          resetVals();
+        } else if (classString.contains(x)) {
+          classString.remove('dark');
+          classString.add("primary-" + x);
+        } else if (x == "darkforall") { }
+      }
+    }
 
 
   function searchLines(x) {
