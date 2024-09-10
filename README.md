@@ -1,6 +1,6 @@
 # stem-journey-isu
 
-## Exploring the Journey of Asian Women in STEM at ISU
+## Exploring the Journey of Asian Women in STEM at Iowa State University
 
 Research by Mansi Patel, with digital project support from Erin Ridnour, Michael Cummings, and Olivia Wikle as part of a 2024 Tracing Race at Iowa State University Graduate Student Fellowship.
 
